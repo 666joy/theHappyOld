@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/try-01/try-01",
+    "pages/try-02/try-02",
+    "pages/try-03/try-03",
+    "pages/try-04/try-04"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#666666",
+    "navigationBarTitleText": "Moss_decoders",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "backgroundColor": "#F5F5F5",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+       "text": "首页",
+       "iconPath": "putures/t04.png",
+       "selectedIconPath": "putures/t05.png"
+    },
+    
+    {
+      "pagePath": "pages/try-01/try-01",
+       "text": "文字搜索",
+       "iconPath": "putures/d07.png",
+       "selectedIconPath": "putures/d06.png"
+     },
+     {
+      "pagePath": "pages/try-02/try-02",
+       "text": "图片搜索",
+       "iconPath": "putures/t07.png",
+       "selectedIconPath": "putures/t06.png"
+       
+     },
+     {
+       "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "putures/r01.png",
+        "selectedIconPath": "putures/r02.png"
+      }
+   ]
+   },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

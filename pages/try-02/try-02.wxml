@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<image src="{{img}}" ></image>
+<button bindtap="putimg">添加照片</button>
+<button bindtap="test">转码</button>
+<button bindtap="test2">上传</button>
+<view user-select="true" wx:for="{{book}}" wx:key="book.calorie">
+  菜名：{{item.name}}   卡路里：{{item.calorie}} 大卡/100g  可信度：{{item.probability*100}}%
+</view>

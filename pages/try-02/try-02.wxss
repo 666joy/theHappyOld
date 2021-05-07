@@ -1,0 +1,12 @@
+/* pages/try-02/try-02.wxss */
+.add-wrap {
+  position:fixed;
+  bottom:0;
+  display:flex;
+  width:100%;
+  justify-content:center;
+}
+.add-wrap image {
+  width:64px;
+  height:64px;
+}
