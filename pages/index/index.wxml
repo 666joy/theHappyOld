@@ -1,3 +1,15 @@
-<view>
-  <view class="a-01">每日食谱--今日推荐1</view>
+<view class="content">
+  <view class="type">
+     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">今日推荐</view>
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">卡路里表</view>
+  </view>
+  <view class="hr"></view>
+  <swiper current="{{currentTab}}" style="height:1500px;">
+     <swiper-item>
+        <include src="firstPage.wxml" />
+     </swiper-item>
+     <swiper-item>
+        <include src="calories.wxml" />
+     </swiper-item>
+  </swiper>
 </view>

@@ -1,12 +1,76 @@
 /* pages/try-02/try-02.wxss */
-.add-wrap {
-  position:fixed;
-  bottom:0;
-  display:flex;
-  width:100%;
-  justify-content:center;
+.container-out {
+  height: 600rpx;
+  width: 650rpx;
+  background-color: rgb(247, 176, 119);
+  margin: 20rpx auto;
+  border-radius: 40rpx;
+  box-shadow: 0 10px 0 rgb(247, 176, 119);
+  position: relative;
 }
-.add-wrap image {
-  width:64px;
-  height:64px;
+.container-in {
+  width: 580rpx;
+  height: 530rpx;
+  background-color: rgb(247, 176, 119)e;
+  border-radius: 40rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.circle {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  height: 20rpx;
+  width: 20rpx;
+}
+.image {
+  width: 100%;
+  height:100%;
+}
+.buttonimage{
+width:200rpx;
+height:200rpx;
+margin-top:50rpx;
+margin-right:100rpx;
+}
+.baikeinfo{
+  padding:20rpx;
+  margin:15rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  box-shadow:0rpx 2rpx 4rpx 4rpx  #f2f2f2;
+  height:650rpx;
+  width: 650rpx;
+  background:rgb(33, 65, 122);
+  border-radius:20rpx;
+}
+.baikecard{
+display: flex;
+flex-direction: column;
+color: rgba(83, 204, 35, 0.966);
+text-align: center;
+}
+.text{
+  margin-left:100rpx;
+  margin-bottom:30rpx;
+}
+.title{
+  margin-top:30rpx;
+  font-size:16px;
+  color:#000;
+  text-align:center;
+}
+.baikecontent{
+overflow:hidden;
+text-overflow:ellipsis;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2;
+font-size:14px;
+color:#fff;
+margin:0rpx 40rpx ;
+line-height:40rpx;
 }

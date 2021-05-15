@@ -11,7 +11,7 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#666666",
     "navigationBarTitleText": "Moss_decoders",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true
   },
   "tabBar": {
@@ -20,29 +20,28 @@
       {
       "pagePath": "pages/index/index",
        "text": "首页",
-       "iconPath": "putures/t04.png",
-       "selectedIconPath": "putures/t05.png"
+       "iconPath": "pictures/t04.png",
+       "selectedIconPath": "pictures/t05.png"
     },
     
     {
       "pagePath": "pages/try-01/try-01",
        "text": "文字搜索",
-       "iconPath": "putures/d07.png",
-       "selectedIconPath": "putures/d06.png"
+       "iconPath": "pictures/d07.png",
+       "selectedIconPath": "pictures/d06.png"
      },
      {
       "pagePath": "pages/try-02/try-02",
        "text": "图片搜索",
-       "iconPath": "putures/t07.png",
-       "selectedIconPath": "putures/t06.png"
-       
+       "iconPath": "pictures/t07.png",
+       "selectedIconPath": "pictures/t06.png"
      },
      {
-       "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath": "putures/r01.png",
-        "selectedIconPath": "putures/r02.png"
-      }
+      "pagePath": "pages/try-03/try-03",
+       "text": "图片搜索",
+       "iconPath": "pictures/t07.png",
+       "selectedIconPath": "pictures/t06.png"
+     }
    ]
    },
   "style": "v2",
