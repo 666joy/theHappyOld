@@ -1,6 +1,6 @@
 /* pages/mine/mine.wxss */
 .bar{
-  width:100%;height:70px;
+  width:100%;height:70px; 
 }
 .userinfo-avatar {overflow: hidden;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;
   border: 5px #FF8D1A solid;
