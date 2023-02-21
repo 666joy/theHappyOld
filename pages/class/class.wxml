@@ -1,0 +1,9 @@
+<!--pages/class/class.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+    <view slot="content" style="color:white">非遗研学</view>
+  </cu-custom>
+</view>
+<!-- 页面的内容 -->
+<image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+  <text class="userinfo-nickname" bindtap="getUserProfile">{{nickName}}</text>

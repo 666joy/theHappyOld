@@ -1,0 +1,22 @@
+<!--pages/further/further.wxml-->
+<cu-custom bgColor="bg-gradual-purple" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">{{list['name']}}</view></cu-custom>
+<button bindtap="open" data-index="0">菜品图片</button>
+<block wx:if="{{flag[0]}}">
+    <view><image src="{{list['pic']}}"></image></view>
+</block>
+<button bindtap="open" data-index="1">菜品介绍</button>
+<block wx:if="{{flag[1]}}">
+    <view>{{list['content']}}</view>
+</block>
+<button bindtap="open" data-index="2">功用</button>
+  <block wx:if="{{flag[2]}}">
+    <view>{{list['tag']}}</view>
+  </block>
+<button bindtap="open" data-index="3">制作方法</button>
+<block wx:if="{{flag[3]}}">
+    <view wx:for="{{list['process']}}" wx:key='index' wx:index='index' wx:item='key'>
+       <view>步骤{{index+1}}: </view>
+       <view>{{item['pcontent']}}</view>
+       <view><image src="{{item['pic']}}"></image></view>
+    </view>
+</block>

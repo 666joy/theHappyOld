@@ -1,0 +1,22 @@
+/* pages/search.wxss */
+.search-box{
+  width: 80%;
+  margin: 0 auto;
+  }
+  .search-wrap{
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  }
+  .search-input{
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #e5e5e5;
+  flex: 1;
+  } 
+  .search-button{
+  width: 60px;
+  height: 42px;
+  line-height: 42px;  
+  font-size: 14px;
+  }

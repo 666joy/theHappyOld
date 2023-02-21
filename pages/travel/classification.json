@@ -1,0 +1,9 @@
+{
+  "disableScroll":true,
+  "navigationBarTitleText": "乡阁",
+  "navigationBarBackgroundColor": "#4b839a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+     "i-card": "/pages/travel/classification"
+  }
+}

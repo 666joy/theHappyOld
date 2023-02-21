@@ -1,0 +1,4 @@
+<!--compoment/myComponent/myComponent.wxml-->
+<view class="inner">
+  <Text>I am learning 微信小程序</Text>
+</view>

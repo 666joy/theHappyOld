@@ -1,9 +1,0 @@
-<!--pages/try-01/try-01.wxml-->
-<view class="line"></view>
-  <view class="wrapper">
-    <view class="search">
-      <image src="/pictures/search.jpg" style="width:25px;height:23px;"></image>
-    </view>
-    <view><input  placeholder="菜谱搜索"/></view>
-  </view>
-  <view class="line"></view>

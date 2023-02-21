@@ -1,0 +1,63 @@
+.userinfo {display: flex;flex-direction: column;align-items: center;color: #aaa;}
+.userinfo-avatar {overflow: hidden;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;}
+.usermotto {margin-top: 200px;}
+.a-01{text-align: center;}
+
+.section image{width: 98%;}
+.section{text-align:center;padding-top:2px;}
+.count image{margin-left: 10px;margin-top:7px;}
+
+/*index.wxml*/
+.content{font-family: "Microsoft YaHei";height:500px;width:100%;}
+.type{display: flex;flex-direction: row;width:100%;margin: 0 auto;}
+.type view{margin: 0 auto;}
+.select{font-size: 18px;width: 48%;background-color: #f58311;color:white;text-align: center;height: 45px;line-height: 39px; border:5rpx solid white;border-radius:10px;}
+.default{width:48%;font-size: 14px;text-align: center;height: 45px;line-height: 45px;background-color: #e9bf95;}
+.hr{height: 1px;width: 100%;background-color: #cccccc;opacity: 0.2;}
+.pic1{width:100%;}
+.line1{height: 5px;}
+.line2{height: 10px;}
+.box{background-color: #f58311;}
+.pic2{width:60px;height:60px;margin:20px 20px 0 20px;}
+.bg0{background-color: #e9eef2;width:100%;height:130px;}
+.bg1{width:25%;float:left}
+.t0{display: flex;vertical-align: center;justify-content: center;}
+
+.img1{width:750rpx;height:750rpx;}
+.swiper {width: 100%;}
+
+.cardTitle{
+  color: #fff;
+  padding: 90rpx 60rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(0,0,0,0.3)
+}
+
+.cardTitle::before{
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 6rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  display: block;
+  top: 60rpx;
+  left: 50rpx;  
+  transform: skew(10deg, 0deg);
+}
+.cardTitle::after{
+  content: "";
+  position: absolute;
+  width: 140rpx;
+  border-radius: 6rpx;
+  height: 24rpx;
+  background-color: #fff;
+  display: block;
+  bottom: 76rpx;
+  left: 90rpx;  
+  transform: skew(10deg, 0deg);
+  opacity: 0.1;
+}

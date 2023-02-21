@@ -1,0 +1,21 @@
+/* pages/class/class.wxss */
+.userinfo-avatar {overflow: hidden;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;}
+.line{height: 10px;}
+.wrapper{
+  border: 1px solid #cccccc;
+  width: 90%;
+  height: 38px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+.search{
+  margin-left: 10px;
+}
+.blank{height:130rpx;width:auto}
+.bg{height:45rpx;width:300rpx;background-color:#80c63f;color: var(--white);border-top-right-radius:15rpx;}
+.nfont{padding:10rpx 30rpx 10rpx 20rpx;margin-top:30rpx;}
+.box{background-color: #4b839a;}

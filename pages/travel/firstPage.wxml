@@ -1,0 +1,11 @@
+<!-- <view>
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" duration="{{duration}}" bindchange="bindchange"  circular="{{circular}}" style="height:{{imgheights[current]}}rpx;">
+    <block wx:for="{{hdimg}}" wx:key="{{index}}">
+      <swiper-item >
+        <image src="{{item}}" mode="aspectFit" bindload="imageLoad"       
+        class=".itemimage" style="height:{{imgheights[current]}}rpx;width:{{imgwidth}}rpx;"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view> -->
+<view style="font-family:SimHei">这一页是简单游</view>

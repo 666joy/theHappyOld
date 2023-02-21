@@ -1,49 +1,48 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/try-01/try-01",
-    "pages/try-02/try-02",
-    "pages/try-03/try-03",
-    "pages/try-04/try-04"
+    "pages/travel/travel",
+    "pages/class/class",
+    "pages/shop/shop",
+    "pages/foodDetails/foodDetails",
+    "pages/searchResult/searchResult",
+    "pages/further/further",
+    "pages/mine/mine"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#666666",
-    "navigationBarTitleText": "Moss_decoders",
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "非遗研学",
     "navigationBarTextStyle":"white",
+    "navigationStyle": "custom",
     "enablePullDownRefresh":true
   },
   "tabBar": {
-    "backgroundColor": "#F5F5F5",
+    "color": "#b8b8b8",
+    "selectedColor": "#606060",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
     "list": [
       {
-      "pagePath": "pages/index/index",
-       "text": "首页",
-       "iconPath": "pictures/t04.png",
-       "selectedIconPath": "pictures/t05.png"
+        "pagePath": "pages/travel/travel",
+        "text": "旅行",
+        "iconPath": "/pictures/tabbar/t01.png",
+        "selectedIconPath": "/pictures/tabbar/t01_1.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "课程",
+        "iconPath": "/pictures/tabbar/t02.png",
+        "selectedIconPath": "/pictures/tabbar/t02_1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/pictures/tabbar/t03.png",
+        "selectedIconPath": "/pictures/tabbar/t03_1.png"
+      }
+    ]
+  },
+   "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
     },
-    
-    {
-      "pagePath": "pages/try-01/try-01",
-       "text": "文字搜索",
-       "iconPath": "pictures/d07.png",
-       "selectedIconPath": "pictures/d06.png"
-     },
-     {
-      "pagePath": "pages/try-02/try-02",
-       "text": "图片搜索",
-       "iconPath": "pictures/t07.png",
-       "selectedIconPath": "pictures/t06.png"
-     },
-     {
-      "pagePath": "pages/try-03/try-03",
-       "text": "图片搜索",
-       "iconPath": "pictures/t07.png",
-       "selectedIconPath": "pictures/t06.png"
-     }
-   ]
-   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

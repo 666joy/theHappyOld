@@ -1,0 +1,21 @@
+<!--pages/foodDetails/foodDetails.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">菜品材料</view></cu-custom>
+<block wx:if="{{length}}">
+<view wx:for="{{grandient}}" wx:key='index' wx:index='index' data-index='{{index}}'>
+{{grandient[index]}}
+  <block wx:if="{{!flag[index]}}">
+    <text  bindtap="showMore" style="float:right;" data-index="{{index}}">查看更多</text>
+  </block>
+  <block wx:elif="{{flag[index]}}">
+    <text  bindtap="close" style="float:right;" data-index="{{index}}">取消查看</text>
+  </block>
+  <block wx:if="{{flag[index]}}">
+    <view wx:for="{{energe}}" wx:key='index' wx:index='index'>
+      <view wx:for="{{energe[index]}}" wx:key='index' wx:index='name' wx:item='key'>
+        {{index}}:{{item}}
+      </view>
+    </view>
+  </block>
+</view>
+</block>
+<block wx:if="{{!length}}">暂时没有该菜品材料信息</block>

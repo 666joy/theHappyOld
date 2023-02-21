@@ -1,0 +1,37 @@
+<!--pages/mine/mine.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+      <view slot="content" style="color:white">非遗研学</view>
+  </cu-custom>
+</view>
+
+<!-- 页面的内容 -->
+<view class="bar">
+  <image class="userinfo-avatar" src="{{avatarUrl}}"/>
+  <view class="userinfo-nickname" bindtap="getUserProfile">{{nickName}}</view>
+</view>
+
+<view class="content">
+  <button style="margin-top:10px;margin-bottom:10px">
+    <view>我的订单</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button>
+    <view>我的信息</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button>
+    <view>我的收藏</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button>
+    <view>字体大小</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button>
+    <view>联系客服</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+</view>
+
+

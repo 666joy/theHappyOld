@@ -1,0 +1,31 @@
+<!-- <scroll-view class="scrollPage"> -->
+<!-- <page-meta> -->
+   <view class="box">
+      <cu-custom bgColor="bg-orange">
+         <view slot="content" style="color:white">非遗研学</view>
+      </cu-custom>
+   </view>
+
+ <view class="content">
+  <view class="type">
+     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav"><image src="/pictures/travel/简单游.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="0" bindtap="switchNav"/>简单游</view>
+
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav"><image src="/pictures/travel/研学游.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="1" bindtap="switchNav"/>研学游</view>
+
+     <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav"><image src="/pictures/travel/旅行笔记.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="2" bindtap="switchNav"/>旅行笔记</view>
+  </view>
+  <view class="hr"></view>
+  <swiper current="{{currentTab}}" style="height:500px;">
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="firstPage.wxml" />
+     </swiper-item>
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="classification.wxml" />
+     </swiper-item>
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="travelNotes.wxml" />
+     </swiper-item>
+  </swiper>
+ </view>
+ <!-- </page-meta> -->
+<!-- </scroll-view> -->
