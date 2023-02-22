@@ -1,31 +1,6 @@
 /* pages/mine/mine.wxss */
-.bar{
-  width:100%;height:70px; 
-}
-.userinfo-avatar {overflow: hidden;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;
-  border: 5px #FF8D1A solid;
-  float: left; 
-  /* -webkit-border-radius: 30px; */
-}
-.userinfo-nickname{
-  float: left;
-}
-.content{
-  width:100%;
-}
+.userinfo-avatar {overflow: hidden;width: 128rpx;height: 128rpx;margin: 20rpx;border-radius: 50%;}
 /* pages/volunteer_settings/volunteer_settings.wxss */
 .test01{font-size: 20pt;color:brown;}
 .bg0{margin-top:30px;width:80%;height:100px;background-color:#38d3b3;position:fixed;background-size: 100% 100%;z-index:-1;}
 .img_3{margin-top:10px;margin-left:10%;width:80%;height:70px;}
-
-button{
-  padding:3px 15px;
-  margin:5px 0;
-}
-button view{
-  float:left;
-}
-button image{
-  top:15px;
-  float:right;
-}

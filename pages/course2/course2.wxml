@@ -1,0 +1,33 @@
+<!--pages/course2/course2.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+    <view slot="content" style="color:white">课程</view>
+  </cu-custom>
+</view>
+<view class="box1">
+<view class="coursebox">
+  <view class="free">免费</view>
+  <view class="vip">专享</view>
+</view>
+
+<view class="cuisine">
+  <view class="cuisine-name">白云猪手</view>
+  <view class="difficult">难度</view>
+  <view id="star_six_points"></view>
+
+  
+  <image src="https://img.js.design/assets/smartFill/img402164da755928.jpg" class="picture" mode="aspectFill"></image>
+</view>
+
+<view class="cuisine2">
+  <view class="cuisine-name">海鲜粉丝煲</view>
+  <view class="difficult">难度</view>
+  <image src="https://img.js.design/assets/publicImg/324F53241001767.png" class="picture" mode="aspectFill"></image>
+</view>
+
+<view class="voice">
+  <view class="hint">按住说话搜一搜</view>
+</view>
+
+
+</view>

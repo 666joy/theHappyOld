@@ -18,7 +18,6 @@ Page({
           data: res.userInfo.nickName,    //缓存微信用户公开信息，
           success: function() {      //缓存成功后，输出提示
             console.log('写入nickName缓存成功')
-            console.log(res.userInfo)
           },
           fail: function() {        //缓存失败后的提示
             console.log('写入nickName发生错误')

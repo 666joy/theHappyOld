@@ -1,0 +1,32 @@
+<!--pages/course/course.wxml-->
+
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+    <view slot="content" style="color:white">课程</view>
+  </cu-custom>
+</view>
+<view class="box1">
+
+<view class="coursebox">
+  <view class="free">免费</view>
+  <view class="vip">专享</view>
+</view>
+
+<view class="cuisine" bindtap="bqj">
+  <view class="cuisine-name">白切鸡</view>
+  <view class="difficult">难度</view>
+  <image src="/pictures/course/baiqieji.png" class="picture" mode="aspectFill"></image>
+</view>
+
+<view class="cuisine2">
+  <view class="cuisine-name">蜜汁叉烧</view>
+  <view class="difficult">难度</view>
+  <image src="/pictures/course/chashao.png" class="picture" mode="aspectFill"></image>
+</view>
+<!-- 按住说活搜一搜 -->
+<view class="voice">
+  <image src="/picture/mkf.png" class="photo"></image>
+  <view class="hint">按住说话搜一搜</view>  
+</view>
+
+</view>

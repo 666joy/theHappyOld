@@ -1,0 +1,19 @@
+<!--pages/update/update.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+    <view slot="content" style="color:white">粤绣</view>
+  </cu-custom>
+</view>
+<view class="box1">
+  <view class="coursebox">
+    <view class="free">免费</view>
+    <view class="vip">专享</view>
+  </view>
+  <image src="/pictures/course/脚印.png" class="footprint"></image>
+  <view class="continue">努力更新中...</view>
+  <view class="voice">
+    <image src="/pictures/mkf.png" class="photo"></image>
+    <view class="hint">按住说话搜一搜</view>  
+  </view>
+
+</view>
