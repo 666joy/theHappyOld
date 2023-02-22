@@ -1,0 +1,108 @@
+/* pages/menu/menu.wxss */
+.back
+{
+  width: 20rpx;
+  height: 40rpx;
+  margin-left: 42rpx;
+  margin-top: 88rpx;
+
+}
+/* pages/menu/menu.wxss */
+.container1 {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  opacity: 1;
+  background-color: rgba(245, 131, 17, 1);
+  border-bottom-left-radius: 6%;
+  border-bottom-right-radius: 6%;
+  font-size: 22px;
+  font-weight: 700;
+  vertical-align: bottom;
+  color: aliceblue;
+  position: relative;
+  text-align: center;
+  
+  } 
+  .container1>p {
+      /* 为什么这个后代选择器用不了 */
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  }
+  .image001 {
+      /* 这行和下面冲突吗width:85%; */
+      margin-bottom: 0%;
+      margin-left: 9%;
+  }
+  .container2 {
+  left: 20px;
+  top: 270px;
+  width: 50%;
+  height: 15%;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  margin-left: 4%;
+  
+  }
+  .container3 {
+      width: 92%;
+      display: fixed;
+      margin-top: 2%;
+      margin-left: 4%;
+      
+      /* border-bottom: 1px solid rgba(166, 166, 166, 1); */
+      word-spacing: 530rpx;
+  }
+  .num1 { border-bottom: 1px solid rgba(166, 166, 166, 1);font-weight: 510;
+  }
+  .num2 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 550rpx; margin-top:3%;font-weight: 510;
+  }
+  .num3 {
+      font-size: 19px; margin-top: 8%;font-weight: 600;
+      color: rgba(0, 0, 0, 1);
+      text-align: left;
+  }
+  .num4 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 550rpx; margin-top:2%;font-weight: 540;
+  }
+  .num5 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 550rpx; margin-top:3%;font-weight: 540;
+  }
+  .num6 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 550rpx; margin-top:3%;font-weight: 540;
+  }
+  .num7 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 520rpx; margin-top:3%;font-weight: 540;
+  }
+  .num8 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 580rpx; margin-top:3%;font-weight: 540;
+  }
+  .num9 { border-bottom: 1px solid rgba(166, 166, 166, 1); word-spacing: 550rpx; margin-top:3%;font-weight: 540;
+  }
+  .num10 {
+      font-size: 19px; margin-top: 8%;font-weight: 600;
+      color: rgba(0, 0, 0, 1);
+      text-align: left;
+  }
+  .container4 {
+      margin-left: 7%;
+  }
+  /* 注意nth-child的代码形式 */
+  .container4 view:nth-child(1) {
+      color: rgba(245, 131, 17, 1);
+      font-size: 34px; font-weight: 900;
+      font-style: 思源黑体;
+      margin-top: 2%;
+  
+  }
+  /* https://blog.csdn.net/qq_45465526/article/details/111052450 数字置左上角 */
+  .container4 image:nth-child(2) {
+      margin-top: 4%;
+      vertical-align:top ;
+      margin-left: 2%;
+  }
+  /* 这段没有make sense */
+  .comtainer4 view:nth-child(3) {
+      margin-top: 2%;
+  }

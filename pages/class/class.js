@@ -20,6 +20,10 @@ Page({
       nickName:app.globalData.nickName
     })
   },
-  
+  btnOneAction:function(){
+  wx.navigateTo({
+    url: '/pages/course/course',
+  })
+  },
   onShareAppMessage: function () {}
 })

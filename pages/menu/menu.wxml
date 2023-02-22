@@ -1,0 +1,41 @@
+<!--pages/menu/menu.wxml-->
+<view class="box">
+ 
+  <cu-custom bgColor="bg-orange">
+    <view slot="content" style="color:white">白切鸡</view>
+  </cu-custom>
+</view>
+<!-- 找根目录 -->
+<view class="image001">
+    <image src="/pictures/course/baiqieji1.png" mode="aspectFit"></image>
+</view>
+<view class="container2">
+    <view>白切鸡</view>
+    <view style="font-size: 19px; margin-top: 3%;">
+    主料
+    <text style="font-size: 14px;color:rgba(166, 166, 166, 1);font-weight: 500 ; ">2人份</text>
+    </view>
+</view>
+
+<view class="container3">
+    <view class="num1">三黄鸡 1只</view>
+    <view class="num2">香油 适量</view>
+    <view class="num3">辅料</view>
+    <view class="num4">蒜末 5克</view>
+    <view class="num5">姜末 3克</view>
+    <view class="num6">葱末 5克</view>
+    <view class="num7">白砂糖 5克</view>
+    <view class="num8">盐 2克</view>
+    <view class="num9">生抽 5克</view>
+    <view class="num10">步骤</view>
+</view>
+
+<view class="container4">
+    <view style="display: inline-block;">1</view>
+    <image src="/pictures/course/baiqiejistep1.png" mode="aspectFill"></image>
+    <view>清水煮沸，放入三黄鸡，大火煮5分钟</view>
+</view>
+
+
+
+

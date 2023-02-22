@@ -5,5 +5,66 @@
   </cu-custom>
 </view>
 <!-- 页面的内容 -->
-<image class="userinfo-avatar" src="{{avatarUrl}}"></image>
-  <text class="userinfo-nickname" bindtap="getUserProfile">{{nickName}}</text>
+<!-- <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+  <text class="userinfo-nickname" bindtap="getUserProfile">{{nickName}}</text> -->
+
+<!--pages/courseclass/courseclass.wxml-->
+<view class="classfy">分类</view>
+
+
+<view class="smallcontainer" bindtap="btnOneAction">
+  <image src="/pictures/class/yuecai.png" class="smallbox" mode="aspectFill">
+</image>
+<text>粤菜</text>
+</view>
+<view class="smallcontainer">
+  <image src="/pictures/class/yuexiu.png" class="smallbox" mode="aspectFill">
+</image>
+<text>粤绣</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/yueju.png" class="smallbox" mode="aspectFill">
+</image>
+<text>粤剧</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>蔡李佛拳</text>
+</view>
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>咏春拳</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>剪纸</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>香云纱</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>木版年画</text>
+</view>
+
+<view class="smallcontainer">
+  <image src="/pictures/class/cailifoquan.png" class="smallbox" mode="aspectFill">
+</image>
+<text>更多</text>
+</view>
+
+<view class="voice" style="position: relative; left: 14rpx; top: 7rpx">
+    <image src="/pictures/class/mkf.png" class="photo"></image>
+    <view class="hint">按住说话搜一搜</view>  
+</view>
