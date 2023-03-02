@@ -1,0 +1,11 @@
+<view class="box1">
+  <view class="noContent">
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5kBzw5fQ0RRDsvhgLN*UYKH.0eosl1v05Yx2Eb1WngMmVDdJ88xThhxVMWjb.U.3DmKad4R8ub9Q.fsCsF8e.0k!/b&bo=eAB4AHgAeAADFzI!&rf=viewer_4" class="foot"></image>
+    <view class="text">努力更新中...</view>
+  </view>
+  <!-- 按住说活搜一搜 -->
+  <view class="voice">
+    <image src="/pictures/class/mkf.png" class="photo"></image>
+    <view class="hint">按住说话搜一搜</view>  
+  </view>
+</view>

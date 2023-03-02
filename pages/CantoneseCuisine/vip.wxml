@@ -1,0 +1,32 @@
+<!--会员专享课程  -->
+
+<view class="cuisine" style="margin-top: 50rpx;">
+  <view class="cuisine-name" style="width:auto;">白云猪手</view>
+  <view class="difficult">
+      <view class="text">难度</view>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+    </view>
+  <view id="star_six_points"></view>
+
+  
+  <image src="https://img.js.design/assets/smartFill/img402164da755928.jpg" class="picture" mode="aspectFill"></image>
+</view>
+
+<view class="cuisine">
+  <view class="cuisine-name" style="width:auto;">海鲜粉丝煲</view>
+  <view class="difficult">
+      <view class="text">难度</view>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+    </view>
+  <image src="https://img.js.design/assets/publicImg/324F53241001767.png" class="picture" mode="aspectFill"></image>
+</view>
+
+<view class="voice">
+  <image src="/pictures/class/mkf.png" class="photo"></image>
+  <view class="hint">按住说话搜一搜</view>
+</view>

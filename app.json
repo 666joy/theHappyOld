@@ -6,7 +6,10 @@
     "pages/foodDetails/foodDetails",
     "pages/searchResult/searchResult",
     "pages/further/further",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/CantoneseCuisine/CantoneseCuisine",
+    "pages/CantoneseEmbroidery/CantoneseEmbroidery",
+    "pages/menu/menu"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",

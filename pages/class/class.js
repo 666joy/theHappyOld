@@ -20,6 +20,15 @@ Page({
       nickName:app.globalData.nickName
     })
   },
-  
+  toCantoneseCuisine:function(){
+    wx.navigateTo({
+      url: '/pages/CantoneseCuisine/CantoneseCuisine',
+    })
+  },
+  toCantoneseEmbroidery:function(){
+    wx.navigateTo({
+      url: '/pages/CantoneseEmbroidery/CantoneseEmbroidery',
+    })
+  },
   onShareAppMessage: function () {}
 })

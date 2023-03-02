@@ -1,0 +1,69 @@
+<!--pages/menu/menu.wxml-->
+<view class="box">
+ 
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">白切鸡</view>
+  </cu-custom>
+</view>
+<!-- 找根目录 -->
+<view class="image001">
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5jRs5wjpOeH9lQ8ilNIrXhvsPcsPKIKWbNhl4yDMBhk8.go*OXef4pYGXlk34Gu3vCf.egO5UfS0ygkA*f5gJog!/b&bo=yAJQAcgCUAEDByI!&rf=viewer_4" mode="aspectFit"></image>
+</view>
+<view class="container2">
+    <view>白切鸡</view>
+    <view style="font-size: 19px; margin-top: 3%;">
+    主料
+    <text style="font-size: 14px;color:rgba(166, 166, 166, 1);font-weight: 500 ; ">2人份</text>
+    </view>
+</view>
+
+<view class="container3">
+    <view class="num1">三黄鸡 1只</view>
+    <view class="num2">香油 适量</view>
+    <view class="num3">辅料</view>
+    <view class="num4">蒜末 5克</view>
+    <view class="num5">姜末 3克</view>
+    <view class="num6">葱末 5克</view>
+    <view class="num7">白砂糖 5克</view>
+    <view class="num8">盐 2克</view>
+    <view class="num9">生抽 5克</view>
+    <view class="num10">步骤</view>
+</view>
+
+<view class="container4">
+    <view class="num">1</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5jRs5wjpOeH9lQ8ilNIrXhvrwMPw6TAdCfks9JNgOXznKR7Y7U1X2*EFqLJEYDCIetpVmEq2WYZG.cim7lxuJMs!/b&bo=hAMcAoQDHAIDByI!&rf=viewer_4" mode="aspectFill"></image>
+    <view class="text">清水煮沸，放入三黄鸡，大火煮5分钟</view>
+</view>
+
+<view class="container4">
+    <view class="num">2</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5rmRPxB6yl8E3yXoAqA2F0LBVNnfUGyYyUCiQTmfV4rB1FkyWScuyA694Ev556MEXbGpbUqNojQEZ2DvHx454v8!/b&bo=hAMcAoQDHAIDByI!&rf=viewer_4" mode="aspectFill"></image>
+    <view class="text">捞出过凉水，再焖煮10分钟</view>
+</view>
+
+<view class="container4">
+    <view class="num">3</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5rmRPxB6yl8E3yXoAqA2F0J1HHHwt0eNKxGRqy5FyNDHd3w7YqKwyvMeCE*zQnPf9SVY*VHYRz4lB3HyBcADaqA!/b&bo=hAMcAoQDHAIDR2I!&rf=viewer_4" mode="aspectFill"></image>
+    <view class="text">过凉水后，放入香油，刷在鸡肉表皮</view>
+</view>
+
+<view class="container4">
+    <view class="num">4</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5rmRPxB6yl8E3yXoAqA2F0IPcnLvV5EcjGeXn7CRjg3qCJYj90fsO9KidllIwsbGLcYNiciecoIbhhwpOAF9ZPU!/b&bo=hAMcAoQDHAIDR2I!&rf=viewer_4" mode="aspectFill"></image>
+    <view class="text">放蒜末、姜末、葱末、白砂糖、盐、生抽</view>
+</view>
+
+<view class="container4">
+    <view class="num">5</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5rmRPxB6yl8E3yXoAqA2F0JH7g9L3xGJmdsB7.WpPFX0.ibNLie6rAh72EmEbVugkmd3WRUaWKrKbYAjuvQnODQ!/b&bo=hAMcAoQDHAIDR2I!&rf=viewer_4" mode="aspectFill"></image>
+    <view class="text">搅拌均匀做调味汁即可</view>
+</view>
+
+<view class="blank"></view>
+
+
+
+
+

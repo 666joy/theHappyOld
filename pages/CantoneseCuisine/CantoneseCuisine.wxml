@@ -1,0 +1,25 @@
+<!--pages/CantoneseCuisine/CantoneseCuisine.wxml-->
+
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">粤菜课程</view>
+  </cu-custom>
+</view>
+
+
+<view class="box1">
+  <view class="coursebox">
+    <view class="free" data-current="0" bindtap="switchNav">免费</view>
+    <view class="vip" data-current="1" bindtap="switchNav">专享</view>
+  </view>
+  <swiper current="{{currentTab}}" style="height:650px;">
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="free.wxml" />
+     </swiper-item>
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="vip.wxml" />
+     </swiper-item>
+  </swiper>
+</view>
+

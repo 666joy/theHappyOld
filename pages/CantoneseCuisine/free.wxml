@@ -1,0 +1,29 @@
+<view class="box1">
+  <view class="cuisine" bindtap="bqj">
+    <view class="cuisine-name">白切鸡</view>
+    <view class="difficult">
+      <view class="text">难度</view>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+    </view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5jRs5wjpOeH9lQ8ilNIrXhtP9HgoYUNVPnNR.I049p280e4zNYa9dneZD9LKnP1pnbhjLXXnCq0yDcjC1WsrELc!/b&bo=NwFkADcBZAADByI!&rf=viewer_4" class="picture" mode="aspectFill"></image>
+  </view>
+
+  <view class="cuisine">
+    <view class="cuisine-name">蜜汁叉烧</view>
+    <view class="difficult">
+      <view class="text">难度</view>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+      <image src="/pictures/course/star.png" class="star"/>
+    </view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5kBzw5fQ0RRDsvhgLN*UYKEj8qR6NP453nn6Hy7h42oDISKVSLyiAhZNJxlj3XF036KyIWTX4C2D3S77doukjY0!/b&bo=pQMsAaUDLAEDByI!&rf=viewer_4" class="picture" mode="aspectFill"></image>
+  </view>
+  <!-- 按住说活搜一搜 -->
+  <view class="voice">
+    <image src="/pictures/class/mkf.png" class="photo"></image>
+    <view class="hint">按住说话搜一搜</view>  
+  </view>
+</view>
