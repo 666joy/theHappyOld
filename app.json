@@ -9,7 +9,10 @@
     "pages/mine/mine",
     "pages/CantoneseCuisine/CantoneseCuisine",
     "pages/CantoneseEmbroidery/CantoneseEmbroidery",
-    "pages/menu/menu"
+    "pages/menu/menu",
+    "pages/apply/apply",
+    "pages/agreement/agreement",
+    "pages/applysuccess/applysuccess"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",
