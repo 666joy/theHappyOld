@@ -1,0 +1,107 @@
+<!--pages/travel/travel001.wxml-->
+<view class="container1">
+    <image src="/pictures/travel/路径2新.png" style="height:18px;width:9px; margin-right: 3px; "></image>
+    <text style="font-size: 18px; font-weight: 700;">路线介绍</text>
+</view>
+
+<view class="container2">
+    <view id="first">+
+    </view>
+    <view id="second">
+        <text style="font-weight: 550;">第一天</text>
+        <text style="font-size: 13px;">2022.7.18</text>
+    </view>
+    <view id="third">
+        <text style="font-weight: 550;">第二天</text>
+        <text style="font-size: 13px;color: rgb(134, 134, 134);">2022.7.19</text>
+    </view>
+    <view id="fourth">
+        <text style="font-weight: 550;">第三天</text>
+        <text style="font-size: 13px;color: rgb(134, 134, 134);">2022.7.20</text>
+    </view>
+</view>
+
+<view class="container3" style="position: relative; ">
+    <view id="box101" >08:30</view>
+    <view id="box102">
+        <image src="/pictures/travel/沿江路.png" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        </image>
+    </view>
+    <view class="small-0"  >
+        <view id="box103" >环岛路</view>
+        <view id="box104" > 可以租赁自行车骑行，欣赏海边风景</view>
+        <view id="box105" style="position: absolute; left: 389rpx; top: 14rpx">3h</view>
+    </view>
+    
+    <view class="pic001">
+    <image src="/pictures/travel/直线 2.png"></image>
+    </view> 
+    
+    <view class="text1-101" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
+
+</view>
+
+<!-- 第一个第二个中盒子分界线 -->
+<!-- 第一个第二个中盒子分界线 -->
+<!-- 第一个第二个中盒子分界线 -->
+<!-- 第一个第二个中盒子分界线 -->
+<view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
+    <view id="box201" >11:30</view>
+    <view id="box202">
+        <image src="/pictures/travel/炮台.jpeg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        </image>
+    </view>
+    <view class="small-1"  >
+        <view id="box203"  style="width: 181rpx; height: 81rpx; display: block; box-sizing: border-box; left: 12rpx; top: 1rpx">胡里山炮台</view>
+        <view id="box204" > 欣赏自然风光，滋生爱国情怀</view>
+        <view id="box205" style="position: absolute; left: 389rpx; top: 14rpx">3h</view>
+    </view>
+    
+    <view class="pic002">
+    <image src="/pictures/travel/直线 2.png"></image>
+    </view> 
+    
+    <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
+</view>
+
+<!--2023/3/7  -->
+<view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
+    <view id="box201" >13:30</view>
+    <view id="box202">
+        <image src="/pictures/travel/厦门.jpg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        </image>
+    </view>
+    <view class="small-1"  >
+        <view id="box203"  style="width: 181rpx; height: 81rpx; display: block; box-sizing: border-box; left: 12rpx; top: 1rpx">厦门大学</view>
+        <view id="box204" > 参观中国最美学府</view>
+        <view id="box205" style="position: absolute; left: 389rpx; top: 14rpx">3h</view>
+    </view>
+    
+    <view class="pic002">
+    <image src="/pictures/travel/直线 2.png"></image>
+    </view> 
+    
+    <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
+</view>
+
+<!-- 后面一个了 -->
+
+<view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
+    <view id="box201" >15:30</view>
+    <view id="box202">
+        <image src="/pictures/travel/寺庙.jpg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        </image>
+    </view>
+    <view class="small-1"  >
+        <view id="box203"  style="width: 181rpx; height: 81rpx; display: block; box-sizing: border-box; left: 12rpx; top: 1rpx">南普陀寺</view>
+        <view id="box204" > 拜访坐落海边的千年古刹</view>
+        <view id="box205" style="position: absolute; left: 389rpx; top: 14rpx">3h</view>
+    </view>
+    
+    <view class="pic002">
+    <image src="/pictures/travel/直线 2.png"></image>
+    </view> 
+    
+    <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
+</view>
+
