@@ -15,7 +15,7 @@
      <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav"><image src="/pictures/travel/旅行笔记.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="2" bindtap="switchNav"/>旅行笔记</view>
   </view>
   <view class="hr"></view>
-  <swiper current="{{currentTab}}" style="height:500px;">
+  <swiper current="{{currentTab}}" style="height:750px;">
      <swiper-item catchtouchmove="stopTouchMove">
         <include src="firstPage.wxml" />
      </swiper-item>
@@ -29,3 +29,4 @@
  </view>
  <!-- </page-meta> -->
 <!-- </scroll-view> -->
+

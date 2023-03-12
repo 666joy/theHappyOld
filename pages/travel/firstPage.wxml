@@ -8,4 +8,29 @@
     </block>
   </swiper>
 </view> -->
-<view style="font-family:SimHei">这一页是简单游</view>
+
+<view class="routetext">推荐路线</view>
+<view class="box1">
+  <view class="title">“中国名片”——北京城市中轴线体验路线</view>
+  <image src="/pictures/travel/北京中轴线.png" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>
+<view class="box1">
+  <view class="title">千里草原风景大道非遗体验路线</view>
+  <image src="/pictures/travel/千里草原.png" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>
+<view class="box1">
+  <view class="title">浙西南畲乡非遗技艺体验路线</view>
+  <image src="/pictures/travel/浙西.png" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>

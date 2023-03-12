@@ -1,0 +1,40 @@
+/* pages/agreement/agreement.wxss */
+.shadow 
+{
+  width: 394rpx;
+  height: 88rpx;
+  margin-left: 144rpx;
+  margin-top: 108rpx;
+  background: rgba(229, 229, 229, 0.86);
+  position: relative;
+  z-index: -1;
+}
+.up
+{
+  width: 394rpx;
+  height: 88rpx;
+  margin-top: -120rpx;
+  margin-left: 168rpx;
+  background: rgba(255, 141, 26, 0.86);
+
+  top: 0;
+  left: 0;
+  /** 文本1 */
+  font-size: 60rpx;
+  font-weight: 500;
+  line-height: 88rpx;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.content
+{
+  width: 696rpx;
+  height: 1284rpx;
+  margin-left: 28rpx;
+  /** 文本1 */
+  font-size: 36rpx;
+  font-weight: 500;
+  line-height: 60rpx;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}

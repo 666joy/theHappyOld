@@ -1,0 +1,15 @@
+
+<!--pages/collection/collection.wxml-->
+<view class="myorder">
+  <image src="/pictures/back.png" class="back" bindtap="backbtn"></image>
+  <text>我的收藏</text>
+
+</view>
+<view class="box1">
+  <view class="title">“中国名片”——北京城市中轴线体验路线</view>
+  <image src="/pictures/travel/北京中轴线.png" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>

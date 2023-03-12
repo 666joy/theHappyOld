@@ -1,0 +1,26 @@
+<!--pages/applysuccess/applysuccess.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">报名页面</view>
+    
+  </cu-custom>
+</view>
+<view class="box1">
+  <image src="/pictures/travel/circle1.png" class="circle">
+  </image>
+  <image src="/pictures/travel/gou.jpg"
+  class="gou"></image>
+</view>
+<view class="shadow"></view>
+<view class="title">
+  <image src="/pictures/travel/place.png" class="place" style="position: relative; left: -294rpx; top: 35rpx"></image>
+  <text class="content">
+    中国名片——北京中轴线
+  </text>
+</view>
+<view class="box2">
+<text>报名成功\n
+感谢您的参与</text>
+</view>
+<view class="check">查看路线安排</view>
+<view class="back">返回首页</view>
