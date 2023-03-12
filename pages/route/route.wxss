@@ -1,0 +1,273 @@
+/* pages/route/route.wxss */
+/* 背景 */
+.background{  
+  width: 750rpx;
+  height: 458rpx;
+  z-index:-1; 
+  position: relative;
+}
+/* 路线介绍 */
+.back {
+  position: absolute;
+  top: 92rpx;
+  left: 28rpx;
+  width: 17.5rpx;
+  height: 35rpx;
+}
+.back_text{
+  position: absolute;
+  top: 84rpx;
+  left: 56rpx;
+  width: 144rpx;
+  height: 52rpx;
+  /** 文本1 */
+  font-size: 40rpx;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 52rpx;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 线路名称 */
+.background .name{
+  position: absolute;
+  left: 60rpx;
+  top: 154rpx;  
+  width: 722rpx;
+  height: 182rpx;
+  /** 文本1 */
+  font-size: 53rpx;
+  font-weight: 900;
+  line-height:60rpx;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 名称下面两个小盒子 */
+.name .sbox{
+  border: 1rpx solid rgba(255, 255, 255, 1);  
+  width: 100rpx;
+  height: 50rpx;
+  /** 文本1 */
+  font-size: 36rpx;
+  font-weight: 450;
+  letter-spacing: 0px;
+  line-height: 40rpx;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  background: rgb(255, 115, 0);
+}
+.name .left{
+  position: relative;
+  top: 30rpx;
+  float: left;
+}
+.name .right{
+  position: relative;
+  top: 30rpx;
+  margin-left: 12rpx;
+  float: left;
+}
+/* 精彩故事，新的 */
+.newbox1
+{
+  width: 750rpx;
+  height: 650rpx;
+  margin-top: 25rpx;
+  border-radius: 34rpx;
+  background: rgba(255, 255, 255, 1);
+}
+.newbox1 .light
+{
+  left: 98px;
+  top: 518px;
+  width: 184px;
+  height: 38px;
+  opacity: 1;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255, 140, 26, 1) 0%, rgba(250, 164, 25, 0.01) 100%);
+  
+  /** 文本1 */
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 35px;
+color: rgba(255, 255, 255, 0.959);
+text-align: center;
+vertical-align: top;
+}
+
+/* 老的 */
+.box
+{
+  width: 750rpx;
+  height: 1200rpx;
+  margin-top: -34rpx;
+  border-radius: 34rpx;
+  background: rgba(255, 255, 255, 1);
+}
+.box .light
+{
+  left: 98px;
+  top: 518px;
+  width: 184px;
+  height: 38px;
+  opacity: 1;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255, 140, 26, 1) 0%, rgba(250, 164, 25, 0.01) 100%);
+  
+  /** 文本1 */
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 35px;
+color: rgba(255, 255, 255, 0.959);
+text-align: center;
+vertical-align: top;
+}
+.box .number
+{
+  width: 360rpx;
+  height: 82rpx;
+  float: right;
+  border: 2rpx solid rgba(254, 120, 37, 1);    
+  /** 文本1 */
+  font-size: 36rpx;
+  font-weight: 400;
+  line-height: 82rpx;
+  color: rgba(255, 141, 26, 1);
+}
+.number .numberpicture
+{
+  width: 61rpx;
+  height: 61rpx;  
+  margin-left: 26rpx;
+  margin-top: 6rpx;
+  float: left;
+  margin-right: 10rpx;
+}
+.box .contant
+{
+  float: left;
+  margin-top: 6rpx;
+  margin-left: 14rpx;
+  width: 722rpx;
+height: 878rpx;
+/** 文本1 */
+font-size: 32rpx;
+font-weight: 700;
+letter-spacing: 4rpx;
+line-height: 50rpx;
+color: rgba(0, 0, 0, 0.73);
+
+}
+
+
+/* 新的002 */
+
+.newbox2
+{
+  width: 750rpx;
+  height: 650rpx;
+  margin-top: 25rpx;
+  border-radius: 34rpx;
+  background: rgba(255, 255, 255, 1);
+}
+.newbox2 .light
+{
+  left: 98px;
+  top: 518px;
+  width: 184px;
+  height: 38px;
+  opacity: 1;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(255, 140, 26, 1) 0%, rgba(250, 164, 25, 0.01) 100%);
+  margin-bottom: 12px;
+  margin-top: 60px;
+  
+  /** 文本1 */
+font-size: 22px;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 35px;
+color: rgba(255, 255, 255, 0.959);
+text-align: center;
+vertical-align: top;
+}
+
+.newbox2 .newsmallbox {
+ margin-left: 30px;
+ margin-bottom: 20px;
+}
+
+.newbox2 .newsmallbox002 {
+  margin-left: 30px;
+  margin-bottom: 20px;
+ }
+
+ /* 3.12 */
+
+ .evaluation {
+  position: relative;
+   left: 29rpx;
+   top: 1095rpx;
+  width: 335px;
+  height: 225px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ /* 评价盒子 */
+.evaluation .ev002 {
+  font-size: 10px;
+  left: 270px;
+  top: 1918px;
+  width: 63px;
+  height: 20px;
+  opacity: 1;
+  background: rgba(245, 211, 211, 0.64);
+  color: grey;
+  text-align: center;
+  line-height: 20px;
+}
+.evaluation .word {
+  font-size: 12px;
+}
+ .plan
+ {
+  width: 500rpx;
+  height: 93rpx;
+  opacity: 1;
+  margin-left: 120rpx;
+  margin-top: 50rpx;
+   background: rgba(212, 48, 48, 0.86); 
+   border: 2rpx solid rgba(229, 229, 229, 1);   
+   box-shadow: 0px 4rpx 20rpx 0px rgba(0, 0, 0, 0.25);         
+   /** 文本1 */
+   font-size: 50rpx;
+   font-weight: 549;
+   letter-spacing: 4rpx;
+   line-height: 82rpx;
+   color: rgba(255, 255, 255, 1);
+   text-align: center;
+   float: left;
+ }
+ .apply
+ {
+   width: 500rpx;
+   height: 93rpx;
+   opacity: 1;
+   margin-left: 120rpx;
+   margin-top: 740rpx;
+   background: rgba(255, 141, 26, 0.8); 
+   border: 2rpx solid rgba(229, 229, 229, 1);             
+   box-shadow: 0px 4rpx 20rpx 0px rgba(0, 0, 0, 0.25);
+   /** 文本1 */
+   font-size: 52rpx;
+   font-weight: 549;
+   letter-spacing: 4rpx;
+   line-height: 82rpx;
+   color: rgba(255, 255, 255, 1);
+   text-align: center;
+   float: left;
+ }
+
