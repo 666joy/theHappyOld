@@ -88,4 +88,14 @@ Page({
   onUnload() {
     console.log("mine页面卸载");
   },
+  orderbtp:function(){
+    wx.navigateTo({
+      url: '../willgo/willgo',
+    })
+  },
+  collectbtp:function(){
+    wx.navigateTo({
+      url: '../collection/collection',
+    })
+  }
 })
