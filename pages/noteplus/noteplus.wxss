@@ -1,0 +1,104 @@
+/* pages/note/note.wxss */
+.head
+{
+  width: 750rpx;
+  height: 144rpx;
+  border-radius: 0px 0px, 20rpx, 20rpx;
+  background: rgba(245, 131, 17, 1);
+}
+.head text
+{
+  width: 176rpx;
+  height: 64rpx;
+  margin-left: 226rpx;
+  font-size: 44rpx;
+  font-weight: 700;
+  line-height: 64rpx;
+  color: rgba(255, 255, 255, 1);
+}
+.head .notepicture
+{
+  width: 30px;
+  height: 30px;
+  margin-left: 10rpx;
+  margin-top: 72rpx;
+}
+.body
+{
+  width: 375px;
+  height: 415px;
+  margin-top: 20rpx;
+  background: rgba(229, 229, 229, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+.body .box1
+{
+  position: relative;
+  top: 36rpx;
+  width: 710rpx;
+  height: 138rpx;
+  margin-left: 18rpx;
+
+  background: rgba(255, 255, 255, 1);
+  /** 文本1 */
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: rgba(36, 36, 36, 1);
+  text-align: left;
+}
+.body .box2
+{
+  position: relative;
+  top: 32rpx;
+  width: 710rpx;
+  height: 596rpx;
+  margin-top: 32rpx;
+  margin-left: 18rpx;
+  background: rgba(255, 255, 255, 1);
+  /** 文本1 */
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(36, 36, 36, 1);
+  line-height: 22px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.box003 {
+left: px;
+top: 513px;
+width: 90px;
+height: 90px;
+opacity: 1;
+background: rgba(255, 255, 255, 1);
+
+border: 1px solid rgba(166, 166, 166, 1);   
+margin-left: 8px;
+margin-top: 25px;    
+float: left;     
+margin-right: 30px;
+}
+
+
+
+.publish
+{
+  width: 436rpx;
+height: 72rpx;
+margin-left: 158rpx;
+margin-top: 295rpx;
+border-radius: 30rpx;
+background: rgba(255, 141, 26, 1);
+border: 4rpx solid rgba(255, 255, 255, 1); 
+/** 文本1 */
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0px;
+line-height: 72rpx;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+text-align: center;
+}

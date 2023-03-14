@@ -1,0 +1,109 @@
+<!--pages/route/route.wxml-->
+<view class="head">
+  <image src="/pictures/travel/矩形 1@2x.png" class="background" >
+    <image src="/pictures/travel/路径 2.png"  class="back"></image>
+    <view class="back_text">首页</view>
+    <view class="name" >
+        <text class="title">“中国名片”
+        ——北京城市中轴线体验路线   
+        </text> 
+        <view class="sbox left">经典</view>
+        <view class="sbox right">风景</view>
+    </view>
+    
+  </image>
+</view>
+
+<view class="newbox1">
+  <view class="light" style="position: relative; left: 208rpx; top: 0rpx; width: 335rpx; height: 81rpx; display: block; box-sizing: border-box">精彩花絮抢先看</view>
+  <image src="/pictures/travel/矩形 2@3x.png" style="position: relative; left: 94rpx; top: 34rpx">
+  </image>
+  <image src="/pictures/travel/圆形 1.png" style="width: 128rpx; height: 130rpx; display: block; box-sizing: border-box; position: absolute; left: 600rpx; top: 402rpx"></image>
+  <image src="/pictures/travel/Shape@3x.png" style="width: 93rpx; height: 81rpx; display: inline-block; box-sizing: border-box; position: absolute; left: 617rpx; top: 426rpx"></image>
+</view>
+
+
+  <view class="box" style="width: 750rpx; height: 1027rpx; display: block; box-sizing: border-box">
+    <view class="light" style="position: relative; left: 207rpx; top: 0rpx; width: 335rpx; height: 81rpx; display: block; box-sizing: border-box">路线亮点</view>
+    
+    <text class="contant">【特色】：
+    傩戏演绎传说故事，山歌传唱动人旋律，武魂塑造勇武坚韧。梅山素有江南“青藏高原”的美誉，文化多样，风情独特，多姿多彩的非遗项目生动展现着独具韵味的梅山文化。
+
+    【重点项目】：
+    （1）娄底：梅山传统木刻版画、新化山歌、梅山武术、松山水酒制作技艺、梅山棕编、梅山水火席礼仪、龙山药王传说
+
+    （2）益阳：梅王传说、梅山傩戏、梅山山歌、梅山剪纸
+
+    （3）邵阳：滩头木版年画、滩头手工抄纸技艺、花瑶挑花、花瑶呜哇山歌、蓝印花布印染技艺、邵阳布袋戏、祁剧、邵阳花鼓戏、八峒瑶族跳鼓坛、崀山峒歌、岩鹰拳、苗绣、长龙宴、苗家油茶、蜡染、苗歌、宝庆油布伞
+    
+    </text>
+
+  </view>
+
+  <view class="newbox2">
+  <view class="light" style="position: relative; left: 208rpx; top: 0rpx; width: 335rpx; height: 81rpx; display: block; box-sizing: border-box">实拍照片</view>
+  <view class="newsmallbox">
+  <image src="/pictures/travel/矩形 1@3x.png" style="width: 670rpx; height: 470rpx; display: inline-block; box-sizing: border-box; position: relative; left: -22rpx; top: 0rpx"></image>
+  </view>
+
+  <view class="newsmallbox002">
+    <image src="/pictures/travel/矩形 1@3x(1).png" style="width: 670rpx; height: 470rpx; display: inline-block; box-sizing: border-box; position: relative; left: -22rpx; top: 0rpx">
+    </image>
+  </view>
+  
+  <view style="width: 356rpx; height: 410rpx; display: block; box-sizing: content-box; float: left;">
+  <image src="/pictures/travel/orange.png" style="width: 324rpx; height: 452rpx; display: inline-block; box-sizing: border-box; position: relative; left: 33rpx; top: 0rpx"></image>
+  </view>
+  <view style="float: right; width: 300rpx; height: 450rpx; display: block; box-sizing: border-box">
+    <image src="/pictures/travel/矩形 001.png" style="width: 302rpx; height: 206rpx; display: inline-block; box-sizing: border-box; position: relative; left: -47rpx; top: 0rpx"></image>
+    <image src="/pictures/travel/矩形 002 (2).png" style="width: 302rpx; height: 206rpx; display: inline-block; box-sizing: border-box; position: relative; left: -47rpx; top: 31rpx"></image>
+  </view>
+
+  
+  <view class="light" style="position: relative; left: 207rpx; top: 6rpx; width: 335rpx; height: 81rpx; display: block; box-sizing: border-box; margin-top: 295px">商品评价</view>
+</view>
+
+<view class="evaluation" style="position: relative; left: 53rpx; top: 1115rpx; width: 645rpx; height: 512rpx; display: block; box-sizing: border-box">
+<image src="/pictures/travel/矩形 7.png" style="width: 659rpx; height: 71rpx; display: inline-block; box-sizing: border-box; position: relative; left: -8rpx; top: 0rpx"></image>
+<div style="position: absolute; width: 660rpx; height: 43rpx; display: block; box-sizing: border-box; left: 4rpx; top: 14rpx">商品评价 (103)</div>
+<div style="position: absolute; width: 142rpx; height: 32rpx; display: block; box-sizing: border-box; left: 490rpx; top: 18rpx; color: gray">查看全部</div>
+<image src="/pictures/travel/路径ev001.png" style="width: 24rpx; height: 43rpx; display: inline-block; box-sizing: border-box; position: relative; left: 600rpx; top: -65rpx"></image>
+
+
+<view class="ev002" style="position: relative; left: 25rpx; top: -39rpx; width: 122rpx; height: 35rpx; display: block; box-sizing: border-box">
+有手工(33)</view>
+<view class="ev002" style="position: relative; left: 180rpx; top: -74rpx; width: 143rpx; height: 33rpx; display: block; box-sizing: border-box">
+  导游有趣（12）</view>
+<view class="ev002" style="position: relative; left: 337rpx; top: -106rpx; width: 143rpx; height: 33rpx; display: block; box-sizing: border-box">
+  性价比高（13）</view>
+<view class="ev002" style="position: relative; left: 502rpx; top: -139rpx; width: 122rpx; height: 35rpx; display: block; box-sizing: border-box">
+少步行（55）</view>
+
+
+<image src="/pictures/travel/矩形 9.png" style="width: 659rpx; height: 188rpx; display: inline-block; box-sizing: border-box; position: relative; left: -8rpx; top: -107rpx">
+</image>
+<image src="/pictures/travel/矩形 10@3x.png" style="width: 66rpx; height: 64rpx; display: inline-block; box-sizing: border-box; position: relative; left: -331rpx; top: -278rpx"></image>
+
+<view class="word" style="position: absolute; left: 91rpx; top: 205rpx">温柔港湾</view>
+<view class="word" style="position: absolute; left: 91rpx; top: 373rpx; width: 93rpx; height: 35rpx; display: block; box-sizing: border-box">棠梨煎雪</view>
+<view style="position: absolute; left: 20rpx; top: 253rpx;font-size: 15px;" >剪纸很好玩！真的超有意思~导游人也很温柔。很愉快的体验！</view>
+<view style="position: absolute; left: 16rpx; top: 414rpx; font-size: 15px" >体验了传统木刻版画！老师非常细心！山歌表演也很精彩，期待下次再来！</view>
+<image src="/pictures/travel/矩形 10@3x(1).png" style="width: 66rpx; height: 64rpx; display: inline-block; box-sizing: border-box; position: relative; left: -331rpx; top: -177rpx"></image>
+
+</view>
+
+
+<view class="apply">我要报名</view>
+<view class="plan">查看路线安排安排</view>
+
+<!--   
+</view> -->
+
+
+
+<!--  中间的旅行人数部分 
+    <view class="number">
+    
+    <image src="/picture/人数.png" class="numberpicture" mode="aspectFit"></image>
+    旅行人数：50
+    </view> -->
