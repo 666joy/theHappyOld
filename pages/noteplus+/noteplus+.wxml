@@ -1,0 +1,37 @@
+<!--pages/note/note.wxml-->
+<view class="head">
+<image src="/pictures/travel/note.png" class="notepicture"></image>
+<text>发布笔记</text>
+</view>
+<view class="body" style="width: 750rpx; height: 843rpx; display: block; box-sizing: border-box; margin-bottom: 20px;">
+<textarea  value="旅行地点：北京中轴线路线：" class="box1"/>
+<textarea value="正文：笔记具体内容" class="box2" maxlength="100"/>
+
+  <view class="rectangle" style="width: 710rpx; height: 349rpx; display: block; box-sizing: border-box; left: 15rpx; top: -416rpx; position: relative">
+  <image src="/pictures/travel/xxx.png" style="width: 54rpx; height: 52rpx; display: inline-block; box-sizing: border-box; margin-top: 13px; margin-left: 15px">
+  </image>
+    <view class="xxx" style="width: 702rpx; height: 0rpx; display: block; box-sizing: border-box"></view>
+  </view>
+  <image src="/pictures/travel/编辑.png" style="position: relative; left: 150rpx; top: -610rpx; width: 83rpx; height: 83rpx; display: inline-block; box-sizing: border-box">
+  </image>
+  <view class="word" style="position: relative; left: 235rpx; top: -658rpx; width: 304rpx; height: 4rpx; display: block; box-sizing: border-box">发布成功</view>
+</view>
+
+
+<view class="box003">
+  <image src="/pictures/travel/note001.png" style="width: 174rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center;"></image>
+</view>
+
+<view class="box003">
+  <image src="/pictures/travel/note003.png" style="width: 175rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 64rpx; top: -122rpx; text-align: center;"></image>
+</view>
+
+
+<view class="box003">
+  <image src="/pictures/travel/note002.png" style="width: 174rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center"></image>
+</view>
+
+<view class="publish">点击发布笔记</view>

@@ -11,7 +11,10 @@
     "pages/CantoneseEmbroidery/CantoneseEmbroidery",
     "pages/menu/menu",
     "pages/travel001/travel001",
-    "pages/route/route"
+    "pages/route/route",
+    "pages/noteplus/noteplus",
+    "pages/noteplus+/noteplus+" ,
+    "pages/note/note"  
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",
