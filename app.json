@@ -15,7 +15,9 @@
     "pages/applysuccess/applysuccess",
     "pages/order_empty/order_empty",
     "pages/willgo/willgo",
-    "pages/collection/collection"
+    "pages/collection/collection",
+    "pages/user/user",
+    "pages/product_reviews/product_reviews"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",

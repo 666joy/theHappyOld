@@ -7,7 +7,7 @@
 </view>
 <view class="box1">
   <view class="title">“中国名片”——北京城市中轴线体验路线</view>
-  <image src="/pictures/travel/北京中轴线.png" class="picture"></image>
+  <image src="/pictures/travel/Beijing.png" class="picture"></image>
   <view class="timetext">出行时间:</view>
   <view class="time">2022/7/29-2022/7/31</view>
   <view class="timetext">优惠价：</view>

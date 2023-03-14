@@ -107,5 +107,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  userbtp:function()
+  {
+    wx.navigateTo({
+      url: '/pages/user/user',
+    })
   }
 })

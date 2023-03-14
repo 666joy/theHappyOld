@@ -1,14 +1,28 @@
-<view class="searchbox">
-<image src="/pictures/travel/search1.png" class="logo"></image>
-<input class="input1" 
-      placeholder="请输入用户名" placeholder-class="input1-place">
-      </input>
+<!--pages/user/user.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange">
+      <view slot="content" style="color:white">用户界面</view>
+  </cu-custom>
+</view>
+<image src="/pictures/travel/user/user_background.png" class="background"></image>
+<image src="/pictures/travel/user/User_base.png" class="user_head"></image>
+<view class="user_name">李雪</view>
+<view class="follow">关注</view>
+<view class="information_underground"></view>
+<view class="information">
+  <text class="digit">103</text>
+  <text class="digit">17k</text>
+  <text class="digit">1.5k</text>
+  <text class="word">照片</text>
+  <text class="word">浏览量</text>
+  <text class="word">粉丝</text>
+
 </view>
 <view class="user_content">
-  <image src="/pictures/travel/user/user_head1.png" class="user_headshot" bindtap="userbtp">
+  <image src="/pictures/travel/user/user_head1.png" class="user_headshot">
   </image>
   <view class="share_content">由用户自行选择分享。这种情况下用户是否分享主要是取决于（内容过多折叠，仅显示60左右</view>
-  <view class="user_name">李雪</view>
+  <view class="user_name" style="position: relative; left: -404rpx; top: 15rpx">李雪</view>
   <image src="/pictures/loadmore.png" class="loadmore"></image>
   <view class="moretext">查看原文</view>
   <image src="/pictures/travel/flag.png" class="flag"></image>

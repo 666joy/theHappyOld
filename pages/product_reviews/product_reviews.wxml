@@ -1,0 +1,37 @@
+<!--pages/product_reviews/product_reviews.wxml-->
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">路线介绍</view>
+    <view slot="content" style="color:white">商品评价</view>
+    
+  </cu-custom>
+</view>
+<view class="reviewbox">全部（303）</view>
+<view class="reviewbox">最新</view>
+<view class="reviewbox">有图片/视频</view>
+<view class="reviewbox">追加（37）</view>
+<view class="reviewbox">回头客（45）</view>
+<view class="reviewbox">有手工（36）</view>
+<view class="reviewbox">伙食好（22）</view>
+<image src="/pictures/down.png" class="down" style="position: relative; left: -344rpx; top: 196rpx;  display: inline-block; box-sizing: border-box"></image>
+<view class="line"></view>
+<image src="/pictures/travel/user/user_head1.png" class="headpicture"></image>
+<view class="username" style="position: relative; left: 103rpx; top: -50rpx">李雪</view>
+<view class="reviewcontent">剪纸很好玩！真的超有意思~导游人也很温柔。很愉快的体验！</view>
+<image src="/pictures/productreview/review1.png" class="reviewpicture"></image>
+<image src="/pictures/productreview/review2.png" class="reviewpicture"></image>
+<image src="/pictures/productreview/review3.png" class="reviewpicture"></image>
+<image src="/pictures/productreview/review4.png" class="reviewpicture"></image>
+<image src="/pictures/productreview/review5.png" class="reviewpicture"></image>
+<view class="zhuiping">用户一天内追评</view>
+<image src="/pictures/productreview/review6.png" class="reviewpicture"></image>
+<view class="commentbox">
+<view class="user_comment" id="first">猩猩不想上学：哇塞！看起来好好玩呀~</view>
+<view class="user_comment">李晓娜：哇塞！好美丽的地方！这也太爱了吧！</view>
+<view class="user_comment">星星爱眨眼睛：这是去的什么地方？下次组团一起吗！</view>
+<view class="check">查看全部四条评论</view>
+<image src="/pictures/arrow.png" class="left" style="position: relative; left: 162rpx; top: -28rpx"></image>
+<image src="/pictures/collect.png" class="love"></image>
+</view>
+
+<view class="line2" ></view>

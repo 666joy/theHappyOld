@@ -1,0 +1,138 @@
+/* pages/product_reviews/product_reviews.wxss */
+.reviewbox{
+  margin-left: 16px;
+  margin-top: 22px;
+  width: 70px;
+  height: 20px;
+  opacity: 1;
+  background: rgba(245, 211, 211, 0.64);
+  /** 文本1 */
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(128, 128, 128, 1);
+  text-align: center;
+  float: left;
+}
+
+
+.down
+{
+
+  width: 25px;
+  height: 16px;
+  opacity: 1;
+}
+.line{
+  width: 385px;
+  height: 0px;
+  opacity: 1;
+  border: 1px solid rgba(166, 166, 166, 0.33);           
+  margin-top: 100px;
+}
+.headpicture{
+  margin-left: 16px;
+  margin-top: 9px;
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  border-radius: 14px;
+}
+.username{
+  width: 48px;
+  height: 21px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+
+
+}
+.reviewcontent{
+  margin-left: 22px;
+  width: 290px;
+  height: 48px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+.reviewpicture{
+  margin-left: 13px;
+  width: 109px;
+  height: 102px;
+  opacity: 1;
+
+}
+.zhuiping{
+  margin-left: 16px;
+  margin-top: 9px;
+  width: 100px;
+  height: 15px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgba(237, 12, 12, 1);
+}
+.commentbox{
+margin-left: 12px;
+margin-top: 3px;
+  width: 350px;
+  height: 75px;
+  opacity: 1;
+  background: rgba(229, 229, 229, 1);
+}
+.user_comment{
+  margin-left: 6px;
+  padding-top: 13px;
+  width: 290px;
+  height: 12px;
+  /** 文本1 */
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  color: rgba(128, 128, 128, 1);
+}
+.user_comment:first-of-type{
+padding-top: 9px;
+}
+.check{
+  margin-left: 6px;
+  margin-top: 17px;
+  width: 150px;
+  height: 11px;
+
+  /** 文本1 */
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  color: rgba(128, 128, 128, 1);
+}
+.left{
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+.love{
+  margin-top: 6px;
+  margin-left: 339px;
+  width: 12.22px;
+  height: 10.72px;
+  opacity: 1;
+
+}
+.line2{
+
+    width: 385px;
+    height: 0px;
+    opacity: 1;
+    border: 1px solid rgba(166, 166, 166, 0.33);           
+    margin-top: 50px;
+
+}
