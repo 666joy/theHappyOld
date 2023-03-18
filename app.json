@@ -14,7 +14,13 @@
     "pages/route/route",
     "pages/noteplus/noteplus",
     "pages/noteplus+/noteplus+" ,
-    "pages/note/note"  
+    "pages/note/note" ,
+    "pages/apply/apply",
+    "pages/agreement/agreement",
+    "pages/applysuccess/applysuccess",
+    "pages/order_empty/order_empty",
+    "pages/willgo/willgo",
+    "pages/collection/collection"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",
