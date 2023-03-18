@@ -1,0 +1,229 @@
+/* pages/travel/travel001.wxss */
+
+/* 这里设置的是盒子的标签 */
+.container1 {
+    left: 13.85px;
+    top:12px;
+    width: 120px;
+    height: 40px;
+    color: black;
+}
+/* 浮动flex的效果与相对绝对定位相抵消，flex后子元素贴在一起，其与绝对定位相斥 */
+.container2 {
+    display: flex;
+}
+#first {
+    height: 44px;
+    width: 44px;
+    background-color: rgb(238, 236, 236);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 16px;
+    border-radius: 4px;
+}
+#second {
+    width: 84px;
+    height: 44px;
+    text-align: center;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+#third {
+    width: 84px;
+    height: 44px;
+    text-align: center;
+    background-color: rgb(238, 236, 236);
+    border-radius: 4px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1%;
+}#fourth {
+    width: 84px;
+    height: 44px;
+    text-align: center;
+    background-color:rgb(238, 236, 236);
+    border-radius: 4px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1%;
+}
+/* .container3 {
+    display: flex;
+    top: 39px;
+    flex-direction: row;
+} */
+.container3 {
+    position: relative;
+    top: 39px;
+    height: 350rpx;
+}
+#box101 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 54px;
+    height: 38px;
+    top: 15px;
+    position: relative; 
+    left: 10rpx; 
+    top: 47rpx
+
+}
+/* 为什么此处的image不能使用id选择器调整边框和height？？？  为什么img还是static布局？？？？？？？？ */
+#box102 {
+    width: 76px;
+    height: 92.91px;
+    position: relative;
+    left: 17%;
+    border-radius: 4px;
+}
+.small-0 {
+
+    width: 230px;
+    height: 120px;
+    position: relative;
+    left: 274rpx; 
+    top: -269rpx;
+    width: 458rpx; 
+    height: 179rpx;
+     box-sizing: border-box; position: relative;
+    border: 2px solid rgb(243, 243, 243);
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    /* 盒子语法 */
+    box-shadow: 2px 2px 2px ;
+}
+#box103 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    width: 56px;
+    height: 34px; 
+    left: 12rpx; top: 1rpx;
+}
+#box105 {
+    color: rgba(255, 141, 26, 1);
+    position: relative;
+    left: 406rpx; 
+    top: 1rpx ;
+    
+}
+
+/* image本生属性，不能直接用其嵌套的view调 要不然调整的是view的属性 */
+
+
+.pic001 image:nth-child(1) {
+    width: 1.2px;
+    height: 122.05px;
+    position: relative;
+}
+.pic001 {
+    position: relative;
+    width: 22rpx; height: 231rpx; display: block; box-sizing: border-box; left: 52rpx; top: -336rpx;
+} 
+
+/* .container3-03 {
+    background-color: grey;
+    width: 650rpx;
+} */
+.text1-101 {
+word-spacing: 352rpx;
+width: 650rpx;
+position: absolute;
+color: rgba(102, 102, 102, 1);
+}
+
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/* 第一第二个图片中盒子分界线 */
+/*  */
+
+.container4 {
+    position: relative;
+    top: 39px;
+    height: 350rpx;
+}
+#box201 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 54px;
+    height: 38px;
+    top: 15px;
+    position: relative; 
+    left: 10rpx; 
+    top: 47rpx
+
+}
+/* 为什么此处的image不能使用id选择器调整边框和height？？？  为什么img还是static布局？？？？？？？？ */
+#box202 {
+    width: 76px;
+    height: 92.91px;
+    position: relative;
+    left: 17%;
+    border-radius: 4px;
+}
+.small-1 {
+    width: 230px;
+    height: 120px;
+    position: relative;
+    left: 274rpx; 
+    top: -269rpx;
+    width: 458rpx; 
+    height: 179rpx;
+     box-sizing: border-box; position: relative;
+    border: 2px solid rgb(243, 243, 243);
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    /* 盒子语法 */
+    box-shadow: 2px 2px 2px ;
+}
+#box203 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    width: 56px;
+    height: 34px; 
+    left: 12rpx; top: 1rpx;
+}
+#box205 {
+    color: rgba(255, 141, 26, 1);
+    position: relative;
+    left: 406rpx; 
+    top: 1rpx ;
+    
+}
+
+/* image本生属性，不能直接用其嵌套的view调 要不然调整的是view的属性 */
+
+
+.pic002 image:nth-child(1) {
+    width: 1.2px;
+    height: 122.05px;
+    position: relative;
+}
+.pic002 {
+    position: relative;
+    width: 22rpx; height: 231rpx; display: block; box-sizing: border-box; left: 52rpx; top: -336rpx;
+} 
+
+/* .container3-03 {
+    background-color: grey;
+    width: 650rpx;
+} */
+.text1-201 {
+word-spacing: 352rpx;
+width: 650rpx;
+position: absolute;
+color: rgba(102, 102, 102, 1);
+}
