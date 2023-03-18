@@ -1,0 +1,87 @@
+/* pages/collection/collection.wxss */
+.myorder{
+  height: 90px;
+}
+.box1 {
+  margin-top: 10px;
+  margin-left: 12px;
+  width: 351px;
+  height: 194px;
+  opacity: 1;
+  border-radius: 10px;
+  background: linear-gradient(138.84deg, rgba(250, 146, 42, 0.6) 0%, rgba(250, 146, 42, 0.78) 53.62%, rgba(250, 146, 42, 0.02) 100%);
+}
+.title{
+
+  width: 351px;
+  height: 27px;
+  opacity: 1;
+  border-radius: 10px;
+  background: rgba(194, 184, 184, 1);
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  vertical-align: top;
+
+}
+
+.picture
+{
+  margin-top: 7px;
+  margin-left: 4px;
+  width: 242px;
+  height: 152px;
+  opacity: 1;
+  float: left;
+}
+.timetext{
+margin-left: 9px;
+margin-top: 5px;
+width: 90px;
+height: 0px;
+float: left;
+/** 文本1 */
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+color: rgba(56, 56, 56, 1);
+text-align: left;
+}
+.time{
+  margin-top: 27px;
+  margin-left: 4px;
+  width: 98px;
+  height: 50px;
+  opacity: 1;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(56, 56, 56, 1);
+  text-align: left;
+  vertical-align: top;
+}
+.price{
+  margin-top: 30px;
+  margin-left: 4px;
+  width: 98px;
+  height: 33px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+  float: left;
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: rgba(56, 56, 56, 1);
+  text-align: left;
+  vertical-align: top;
+}

@@ -1,0 +1,11 @@
+<!--pages/order_empty/order_empty.wxml-->
+
+<view class="myorder">
+  <image src="/pictures/back.png" class="back"></image>
+  <text>我的订单</text>
+  <view class="willgo ordertext">待出行订单</view>
+  <view class="allorder ordertext">全部订单</view>
+</view>
+<image src="/pictures/mine/order_empty.png" class="picture"></image>
+<view class="textbox">还没有订单！</view>
+.
