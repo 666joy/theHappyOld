@@ -160,3 +160,151 @@ text-align: left;
   text-align: left;
   vertical-align: top;
 }
+
+/* 旅行笔记 */
+.searchbox{
+  margin-top: 30px;
+  margin-left: 21px;
+  width: 335px;
+  height: 32px;
+  opacity: 1;
+  border-radius: 300px;
+  border: 1px solid rgba(247, 178, 108, 1);            
+}
+.searchbox .logo
+{
+  margin-top: 4px;
+  width: 23.04px;
+  height: 21.12px;
+  opacity: 1;
+  float: left;
+}
+.input1{
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 222px;
+  height: 22px;
+}
+.input1-place{
+  /** 文本1 */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(255, 141, 26, 0.61);
+  text-align: left;
+
+}
+.user_content{
+  width: 354px;
+  height: 281px;
+  margin-left: 10px;
+  margin-top: 11px;
+  border-radius: 15px;
+  background: rgba(229, 229, 229, 0.33);
+  
+}
+
+.user_headshot{
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 8px;
+  float: left;
+}
+.share_content{
+  margin-left: 15px;
+  margin-top: 24px;
+  width: 233px;
+  height: 66px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(255, 141, 26, 1);
+  float: left;
+
+}
+.user_name{
+  margin-left: 32px;
+  margin-top: 1px;
+  width: 36px;
+  height: 30px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+.loadmore{
+  margin-left: 170px;
+  width: 14.93px;
+  height: 15.4px;
+  margin-top: 15px;
+  float: left;
+}
+.moretext{
+  width: 64px;
+  height: 24px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(255, 141, 26, 1);
+  float: left;
+}
+.flag{
+  
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 27px;
+  height: 24px;
+  opacity: 1;
+  float: left;
+
+
+}
+.share_route{
+  margin-left: -25px;
+  margin-top: 25px;
+  width: 80px;
+  height: 60px;
+  opacity: 1;
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: rgba(255, 141, 26, 1);
+  float: left;
+}
+.share_picture{
+  width: 80px;
+  height: 90.65px;
+  margin-right: 7px;
+  opacity: 1;
+  float: left;
+}
+.logo1
+{
+  width: 25.07px;
+  height: 24.32px;
+  opacity: 1;
+  margin-left: 30px;
+  margin-top: 12px;
+  float: left;
+}
+.text1{
+  width: 45px;
+  height: 27px;
+  opacity: 1;
+  margin-left: 10px;
+  margin-top: 12px;
+  /** 文本1 */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(255, 141, 26, 1);
+  float: left;
+}
