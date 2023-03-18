@@ -1,0 +1,84 @@
+<!--pages/apply/apply.wxml-->
+
+<view class="box">
+  <image src="/pictures/travel/apply_background.png" class="background" >
+    <image src="/pictures/travel/back.png" class="back"></image>
+    <view class="back_text">路线介绍</view>
+    <view class="name">
+      <text class="title">“中国名片”——北京城市中轴线体验路线   
+      </text> 
+      <view class="sbox left">经典</view>
+      <view class="sbox right">风景</view>
+      
+      <image src="/pictures/travel/分组 1.png" class="time" style="width: 34rpx; height: 34rpx; box-sizing: border-box"></image>
+      <view class="ddl">使用有效期：2022/7/25-2022/8/05</view>
+      <view class="line"></view>
+      <view class="outddl">过期全额退|未预约全额退</view>
+      <image src="/pictures/travel/路径 1.png" class="dayu"></image>
+      <view class="buyknow">购买须知</view>
+    </view>
+    
+  </image>
+ 
+ <!-- 购买数量 -->
+    <view class="amount">
+      <view class="buyamount">购买数量</view>
+      <view class="maxbuyamount">1份起购，最多购买5份</view>
+      <view class="plusamount">
+        <!-- 减号 -->
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+        <!-- 数值 -->
+        <input type="number" bindchange="bindManual" value="{{num}}" />
+        <!-- 加号 -->
+        <text class="normal" bindtap="bindPlus">+</text>
+        
+      </view>
+      
+    </view>
+
+    <!-- 报名人信息 -->
+    <view class="information">
+     <view class="infortitle" style="width: 253rpx; height: 54rpx; display: block; box-sizing: border-box">
+     报名人信息
+     </view>
+     <input adjust-position="{{ true }}"  type="text" placeholder="报名人姓名"/>
+     <input adjust-position="{{ true }}"  type="text" placeholder="联系电话"/>
+     <input always-embed="{{ true }}"  adjust-position="{{ true }}"  type="text" placeholder="紧急联系人"/>
+     <input adjust-position="{{ true }}"  type="text" placeholder="紧急联系人电话"/>
+     <view class="check">请仔细核对以上信息是否有误</view>
+    </view>
+
+    <!-- 优惠券 -->
+    <view class="discount">
+      <view class="discountcard">优惠券</view>
+      
+      <image src="/pictures/travel/路径 11.png" class="dayu down"></image>
+      <view class="nodiscountcard">无可用优惠券</view>
+    </view>
+
+    <!-- 确认 -->
+    <view class="confirm">
+    <!--相关协议-->
+ <checkbox-group bindchange="bindAgreeChange">
+  <label class="weui-agree" for="weuiAgree">
+    <view class="weui-agree__text">
+      <checkbox class="weui-agree__checkbox" id="weuiAgree" value="agree" checked="{{}}" />
+      <view class="weui-agree__checkbox-icon">
+      <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon>
+      </view>
+      <view class="weui-agree__text_1">
+        阅读并同意
+        <navigator url="" class="weui-agree__link">《服务协定》</navigator>
+      </view>
+      
+      
+    </view>
+    </label>
+  </checkbox-group>
+
+
+    
+    </view>
+  
+  
+</view>
