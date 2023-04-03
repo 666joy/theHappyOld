@@ -62,5 +62,38 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+  /** 跳转到个人中心页面 */
+  send_note() {
+    wx.showModal({
+        title: '提示',
+        content: '是否确认发布笔记',
+        success: function (res) {
+            if (res.confirm) {
+                console.log('用户点击确定')
+                wx.showToast({
+                    title: '发布成功',
+                    duration: 1000,
+                    success: function () {
+                    setTimeout(function () {
+                      // wx.redirectTo({
+                      //   url: '../user/user',
+                      // })
+                      wx.navigateBack({
+                        delta: getCurrentPages()-1,
+                      })
+                    }, 1000);
+                 }
+               })
+                                                        
+            }else{
+               console.log('取消'),
+               wx.showToast({
+                title: '取消发布',
+               })
+            }
+
+        }
+    })
+  },
 })

@@ -61,12 +61,6 @@ Page({
     //console.log(e.detail.current)
     this.setData({ current: e.detail.current})
   },
-  seeDetail:function(e){
-    var id = e.currentTarget.id;
-    wx.navigateTo({
-      url:'../subjectDetail/subjectDetail?id='+id
-    })
-  },
   stopTouchMove: function() {
     return false
   },
@@ -112,6 +106,11 @@ Page({
   {
     wx.navigateTo({
       url: '/pages/user/user',
+    })
+  },
+  toRoute(){
+    wx.navigateTo({
+      url: '/pages/route/route',
     })
   }
 })

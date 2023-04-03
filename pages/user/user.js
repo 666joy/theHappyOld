@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  tonote(){
+    wx.navigateTo({
+      url: '/pages/noteplus/noteplus',
+    })
   }
 })

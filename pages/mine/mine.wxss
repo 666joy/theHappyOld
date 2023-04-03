@@ -30,6 +30,7 @@ button{
 }
 button view{
   float:left;
+  padding-left: 20px;
 }
 button image{
   top:15px;

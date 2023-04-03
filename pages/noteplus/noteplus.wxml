@@ -1,28 +1,30 @@
-<!--pages/note/note.wxml-->
-<view class="head">
-<image src="/pictures/travel/note.png" class="notepicture"></image>
-<text>发布笔记</text>
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">发布笔记</view>
+  </cu-custom>
 </view>
+
 <view class="body" style="width: 750rpx; height: 843rpx; display: block; box-sizing: border-box; margin-bottom: 20px;">
-<textarea  value="旅行地点：北京中轴线路线：" class="box1"/>
-<textarea value="正文：笔记具体内容" class="box2" maxlength="100"/>
+<textarea  placeholder="旅行地点：北京中轴线路线：" class="box1"/>
+<textarea placeholder="正文：笔记具体内容" class="box2" maxlength="100"/>
 
 </view>
 
 <view class="box003">
-  <image src="/pictures/travel/note001.png" style="width: 180rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
-  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center;"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5ism07C11RdzZ206Uj3fuWcFT*IKvN5GxWIvpgooT1GTv3jzDz9dbvQVlMaxpuNolc3AHtakoVelBgIoGWy4Nmw!/mnull&bo=DgEOAQ4BDgEDByI!&rf=photolist&t=5" style="width: 180rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aCQhL4WzfcfytwgF*xMfpDwgFajldBYu*4WkrufXStqYHDiNJoBZdaE9APDm.dTMBA!/mnull&bo=JAAkACQAJAADByI!&rf=photolist&t=5" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center;"></image>
 </view>
 
 <view class="box003">
-  <image src="/pictures/travel/note003.png" style="width: 200rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
-  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 64rpx; top: -122rpx; text-align: center;"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5ism07C11RdzZ206Uj3fuWfKl7u6xRUyscTaMgBs2I5WUr.V1c0E12W5NzwmB*6AD8Cyvo35oOdo9kBcaRa2rWo!/mnull&bo=DgEOAQ4BDgEDByI!&rf=photolist&t=5" style="width: 200rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aCQhL4WzfcfytwgF*xMfpDwgFajldBYu*4WkrufXStqYHDiNJoBZdaE9APDm.dTMBA!/mnull&bo=JAAkACQAJAADByI!&rf=photolist&t=5" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 64rpx; top: -122rpx; text-align: center;"></image>
 </view>
 
 
 <view class="box003">
-  <image src="/pictures/travel/note002.png" style="width: 174rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
-  <image src="/pictures/travel/十字arrow.png" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5ism07C11RdzZ206Uj3fuWc4r8cN3no2Enyc8S8wC*5Y4yu2IaJ6.C5H.XQHrQJH7ErQkCWZIcxb9a444tUb424!/mnull&bo=DgEOAQ4BDgEDByI!&rf=photolist&t=5" style="width: 174rpx; height: 174rpx; display: inline-block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aCQhL4WzfcfytwgF*xMfpDwgFajldBYu*4WkrufXStqYHDiNJoBZdaE9APDm.dTMBA!/mnull&bo=JAAkACQAJAADByI!&rf=photolist&t=5" style="width: 45rpx; height: 54rpx; display: inline-block; box-sizing: border-box; position: relative; left: 63rpx; top: -122rpx; text-align: center"></image>
 </view>
 
-<view class="publish">点击发布笔记</view>
+<view class="send" bindtap="send_note">点击发布笔记</view>

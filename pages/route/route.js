@@ -62,5 +62,28 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  backtoTravel(){
+    // wx.navigateBack({
+    //   delta: getCurrentPages()-1,
+    // })
+    wx.reLaunch({
+      url: '/pages/travel/travel',
+    })
+  },
+  toEvaluate(){
+    wx.navigateTo({
+      url: '/pages/product_reviews/product_reviews',
+    })
+  },
+  toApply(){
+    wx.navigateTo({
+      url: '/pages/apply/apply',
+    })
+  },
+  toTravelSchedule(){
+    wx.navigateTo({
+      url: '/pages/travelSchedule/travelSchedule',
+    })
   }
 })

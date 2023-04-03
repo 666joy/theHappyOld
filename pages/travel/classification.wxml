@@ -1,3 +1,25 @@
-<view>
- <image src="http://picnew13.photophoto.cn/20181025/zhongguojuminpinghengshanshibaota-30538258_1.jpg" class="img1"></image>
+<view class="routetext">推荐路线</view>
+<view class="box1">
+  <view class="title">“中国名片”——北京城市中轴线体验路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy36.ciagNo9ra*wTOrdKlC*Up4aGB1l9iZidAPU*qTF5z3Ol9gg2MwDnge*fnGjI0Rg!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>
+<view class="box1">
+  <view class="title">千里草原风景大道非遗体验路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy37ZtRve6iC6XjPdHx7UZvo..G64kM0ASQjCr34TaBlk4vVXI54SY6a0LaFDL2fEG2s!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>
+<view class="box1">
+  <view class="title">浙西南畲乡非遗技艺体验路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5s83OkT4l**70EEzn35qylDnjDJrG5.T2Fy5nFpTmMx6xVSvgR.bbIlaCbmvPqxLqjoDeZbKNX1uLYwgzmeV4D4!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
 </view>

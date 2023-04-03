@@ -15,7 +15,7 @@
 <view class="reviewbox">伙食好（22）</view>
 <image src="/pictures/down.png" class="down" style="position: relative; left: -344rpx; top: 196rpx;  display: inline-block; box-sizing: border-box"></image>
 <view class="line"></view>
-<image src="/pictures/travel/user/user_head1.png" class="headpicture"></image>
+<image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5u21dUzY*aOwzWwMCjAYYenTeozzxY*I3W41qRqUwyADY1SyX.gc5OSd4YhO0xJiXE52qWBmkbRhzMdkgEH2WaQ!/mnull&bo=VABaAFQAWgADByI!&rf=photolist&t=5" class="headpicture"></image>
 <view class="username" style="position: relative; left: 103rpx; top: -50rpx">李雪</view>
 <view class="reviewcontent">剪纸很好玩！真的超有意思~导游人也很温柔。很愉快的体验！</view>
 <image src="/pictures/productreview/review1.png" class="reviewpicture"></image>

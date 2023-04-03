@@ -90,12 +90,17 @@ Page({
   },
   orderbtp:function(){
     wx.navigateTo({
-      url: '../willgo/willgo',
+      url: '../myorder/myorder',
     })
   },
   collectbtp:function(){
     wx.navigateTo({
       url: '../collection/collection',
+    })
+  },
+  toUser(){
+    wx.navigateTo({
+      url: '/pages/user/user',
     })
   }
 })

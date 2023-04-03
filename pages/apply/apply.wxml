@@ -1,24 +1,23 @@
 <!--pages/apply/apply.wxml-->
-
 <view class="box">
-  <image src="/pictures/travel/apply_background.png" class="background" >
-    <image src="/pictures/travel/back.png" class="back"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy34svPHkWGlQ94VUeQJFaCeAnjkMdwj5NJsA22Gg9LweOFze8r4dhTyXFQPk04bw0ec!/b&bo=ZQSvAmUErwIDByI!&rf=viewer_4" class="background" />
+  <view class="back_box" bindtap="backtoRoute">
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy37*wvx97vD5Y.HDOVvoX.Xlap1471nBBiP891eZRtLzsKNtjGViOfEI9vuXun3XyWY!/mnull&bo=CgATAAoAEwADByI!&rf=photolist&t=5"  class="back"></image>
     <view class="back_text">路线介绍</view>
-    <view class="name">
-      <text class="title">“中国名片”——北京城市中轴线体验路线   
-      </text> 
-      <view class="sbox left">经典</view>
-      <view class="sbox right">风景</view>
-      
-      <image src="/pictures/travel/分组 1.png" class="time" style="width: 34rpx; height: 34rpx; box-sizing: border-box"></image>
-      <view class="ddl">使用有效期：2022/7/25-2022/8/05</view>
-      <view class="line"></view>
-      <view class="outddl">过期全额退|未预约全额退</view>
-      <image src="/pictures/travel/路径 1.png" class="dayu"></image>
-      <view class="buyknow">购买须知</view>
-    </view>
+  </view>
+  <view class="name">
+    <text class="title">“中国名片”——北京城市中轴线体验路线   
+    </text> 
+    <view class="sbox left">经典</view>
+    <view class="sbox right">风景</view>
     
-  </image>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5s83OkT4l**70EEzn35qylA1Udz2HHWjIQr3ZaxgaOFPHE3*uu4qXnlZR0TzJYtDg5f6LQzgyALlKayeXBrLGAE!/b&bo=EAAQABAAEAADByI!&rf=viewer_4" class="time" style="width: 34rpx; height: 34rpx; box-sizing: border-box"></image>
+    <view class="ddl">使用有效期：2022/7/25-2022/8/05</view>
+    <view class="line"></view>
+    <view class="outddl">过期全额退|未预约全额退</view>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aDSLZ5q96zwYmShyNUrL6YQXnVWCeOcuay2NgDQBX*XxBvQfo9Q1ai1NuOy18tHK5Q!/mnull&bo=FAAUABQAFAADByI!&rf=photolist&t=5" class="dayu"></image>
+    <view class="buyknow">购买须知</view>
+  </view>
  
  <!-- 购买数量 -->
     <view class="amount">
@@ -52,7 +51,7 @@
     <view class="discount">
       <view class="discountcard">优惠券</view>
       
-      <image src="/pictures/travel/路径 11.png" class="dayu down"></image>
+      <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aDGFOIlVqF5dFyOHLd4*8AXs.t9ZLIehVznnFXGkiUsf46SDW7HfUapGMaGWyzBBlU!/mnull&bo=FAAUABQAFAADByI!&rf=photolist&t=5" class="dayu down"></image>
       <view class="nodiscountcard">无可用优惠券</view>
     </view>
 
@@ -64,11 +63,11 @@
     <view class="weui-agree__text">
       <checkbox class="weui-agree__checkbox" id="weuiAgree" value="agree" checked="{{}}" />
       <view class="weui-agree__checkbox-icon">
-      <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon>
+      <!-- <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon> -->
       </view>
       <view class="weui-agree__text_1">
         阅读并同意
-        <navigator url="" class="weui-agree__link">《服务协定》</navigator>
+        <navigator url="/pages/agreement/agreement" class="weui-agree__link">《服务协定》</navigator>
       </view>
       
       
@@ -76,9 +75,12 @@
     </label>
   </checkbox-group>
 
-
-    
     </view>
-  
-  
+
+</view>
+<!-- 价格显示和确认报名 -->
+<view class="bottom">
+  <view class="text_1">当前价格:</view>
+  <view class="text_2">50元/人</view>
+  <view class="confirm_signUp" style="position: relative; left: 50rpx; top: -73rpx" bindtap="sign_up">确认报名</view>
 </view>

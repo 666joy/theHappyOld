@@ -1,11 +1,13 @@
-// pages/note/note.js
+// pages/willgo/willgo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    currentTab:0,
+    flag:0, 
+    current:0
   },
 
   /**
@@ -62,5 +64,26 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+  backbtn:function()
+  {
+    wx.navigateBack()
+  },
+  bindchange: function (e) {
+    //console.log(e.detail.current)
+    this.setData({ current: e.detail.current})
+  },
+  stopTouchMove: function() {
+    return false
+  },
+  switchNav:function(e){
+    var page = this;
+    var id = e.target.dataset.current;//变换置顶标签
+    if(this.data.currentTab == id){
+       return false;
+    }else{
+      page.setData({currentTab:id});
+    }
+    page.setData({flag:id});
+  },
 })

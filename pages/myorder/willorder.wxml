@@ -1,11 +1,4 @@
-<!--pages/collection/collection.wxml-->
-<view class="box">
-  <cu-custom bgColor="bg-orange" isBack="{{true}}">
-    <view slot="backText">返回</view>
-    <view slot="content" style="color:white">我的收藏</view>
-  </cu-custom>
-</view>
-
+<!--pages/willorder/willorder.wxml-->
 <view class="box1">
   <view class="title">“中国名片”——北京城市中轴线体验路线</view>
   <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy36.ciagNo9ra*wTOrdKlC*Up4aGB1l9iZidAPU*qTF5z3Ol9gg2MwDnge*fnGjI0Rg!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>

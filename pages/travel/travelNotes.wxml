@@ -1,21 +1,21 @@
 <view class="searchbox">
-<image src="/pictures/travel/search1.png" class="logo"></image>
+<image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5rmRPxB6yl8E3yXoAqA2F0JE*1ZWCW0y04c00YtkUzleFpp8ak8C3N8oR*LnN4vpnrsU0irFEkAw5.My27y9EJI!/mnull&bo=LwArAC8AKwADByI!&rf=photolist&t=5" class="logo"></image>
 <input class="input1" 
       placeholder="请输入用户名" placeholder-class="input1-place">
       </input>
 </view>
 <view class="user_content">
-  <image src="/pictures/travel/user/user_head1.png" class="user_headshot" bindtap="userbtp">
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5u21dUzY*aOwzWwMCjAYYenTeozzxY*I3W41qRqUwyADY1SyX.gc5OSd4YhO0xJiXE52qWBmkbRhzMdkgEH2WaQ!/mnull&bo=VABaAFQAWgADByI!&rf=photolist&t=5" class="user_headshot" bindtap="userbtp">
   </image>
   <view class="share_content">由用户自行选择分享。这种情况下用户是否分享主要是取决于（内容过多折叠，仅显示60左右</view>
   <view class="user_name">李雪</view>
   <image src="/pictures/loadmore.png" class="loadmore"></image>
   <view class="moretext">查看原文</view>
-  <image src="/pictures/travel/flag.png" class="flag"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5srFK2GVfntSw4K*vRnwEuVXZBHYoDdhYGbr7IDelPT15ZGXEw9cz35GyiMg5f3aMK8vVhVK5QHDZm.1sHdChtY!/mnull&bo=NgAwADYAMAADByI!&rf=photolist&t=5" class="flag"></image>
   <view class="share_route">xx非遗研学路线</view>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
   <image src="/pictures/love.png" class="logo1"></image>
   <view class="text1">点赞</view>
   <image src="/pictures/collect.png" class="logo1"></image>

@@ -71,7 +71,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    
   },
 
   /**
@@ -121,5 +121,16 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  backtoRoute(){
+    console.log(getCurrentPages());
+    wx.navigateBack({
+      delta: getCurrentPages()-1,
+    })
+  },
+  sign_up(){
+    wx.navigateTo({
+      url: '/pages/applysuccess/applysuccess',
+    })
   }
 })

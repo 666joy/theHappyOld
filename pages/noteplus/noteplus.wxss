@@ -102,3 +102,17 @@ color: rgba(255, 255, 255, 1);
 text-align: left;
 text-align: center;
 }
+.send{
+  padding:5px 10px;
+  position:fixed;
+  left: 201rpx;
+  top: 1381rpx;
+  width:350rpx;
+  height:90rpx;
+  font-size: 45rpx;
+  text-align: center;
+  color:white;
+  background: rgba(255, 141, 26, 1);
+  border-radius:10px;
+  z-index: 2;
+}

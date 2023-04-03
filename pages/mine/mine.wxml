@@ -12,7 +12,11 @@
 </view>
 
 <view class="content">
-  <button style="margin-top:10px;margin-bottom:10px" bindtap="orderbtp">
+  <button style="margin-top:10px" bindtap="toUser">
+    <view>个人中心</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button style="margin-bottom:10px" bindtap="orderbtp">
     <view>我的订单</view>
     <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
   </button>
@@ -30,6 +34,10 @@
   </button>
   <button>
     <view>联系客服</view>
+    <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
+  </button>
+  <button>
+    <view>退出登录</view>
     <image src="/pictures/arrow.png" style="width:15px;height:15px;"/>
   </button>
 </view>

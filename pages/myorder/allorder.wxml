@@ -1,0 +1,20 @@
+<!--pages/allorder/allorder.wxml-->
+<view class="orderdate">预定日期：7月25日</view>
+<view class="box1">
+  <view class="title">“中国名片”——北京城市中轴线体验路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy36.ciagNo9ra*wTOrdKlC*Up4aGB1l9iZidAPU*qTF5z3Ol9gg2MwDnge*fnGjI0Rg!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>
+
+<view class="orderdate">预定日期：7月25日</view>
+<view class="box1">
+  <view class="title">“中国名片”——北京城市中轴线体验路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5nFctUsPCNEWDaxDgvdzy36.ciagNo9ra*wTOrdKlC*Up4aGB1l9iZidAPU*qTF5z3Ol9gg2MwDnge*fnGjI0Rg!/mnull&bo=8gCYAPIAmAADByI!&rf=photolist&t=5" class="picture"></image>
+  <view class="timetext">出行时间:</view>
+  <view class="time">2022/7/29-2022/7/31</view>
+  <view class="timetext">优惠价：</view>
+  <view class="price">￥50/人</view>
+</view>

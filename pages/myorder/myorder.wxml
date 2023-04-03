@@ -1,0 +1,22 @@
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">我的订单</view>
+  </cu-custom>
+</view>
+
+<view class="content">
+  <view class="type">
+     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">待出行订单</view>
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">全部订单</view>
+  </view>
+  <view class="hr"></view>
+  <swiper current="{{currentTab}}" style="height:750px;">
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="willorder.wxml" />
+     </swiper-item>
+     <swiper-item catchtouchmove="stopTouchMove">
+        <include src="allorder.wxml" />
+     </swiper-item>
+  </swiper>
+ </view>

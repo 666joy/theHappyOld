@@ -6,14 +6,14 @@
   </cu-custom>
 </view>
 <view class="box1">
-  <image src="/pictures/travel/circle1.png" class="circle">
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5srFK2GVfntSw4K*vRnwEuUBRHpC1XVNdj84.I0yEt3it1yCY4VWGDkRywGH*rwFTYnPwqprlikMXTbZ1pACW00!/mnull&bo=tQK1ArUCtQIDByI!&rf=photolist&t=5" class="circle">
   </image>
-  <image src="/pictures/travel/gou.jpg"
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5srFK2GVfntSw4K*vRnwEuVCT2wz5lQU8kWM75wdYhG.bpLUd8krQnd7.cpig9ZdJG82TCRs6Iyc6qr0MBjgykg!/mnull&bo=dAB5AHQAeQABByA!&rf=photolist&t=5"
   class="gou"></image>
 </view>
 <view class="shadow"></view>
 <view class="title">
-  <image src="/pictures/travel/place.png" class="place" style="position: relative; left: -294rpx; top: 35rpx"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5t3yu8B8GskgrSZ3c7FdkqequTEpJ31M.QuvDTj9YsQKpMyhQCio6rmeUL4tXNXhFM*9T3m8fHsOo6j8Fx6mYfY!/mnull&bo=HgAjAB4AIwADByI!&rf=photolist&t=5" class="place" style="position: relative; left: -294rpx; top: 35rpx"></image>
   <text class="content">
     中国名片——北京中轴线
   </text>
@@ -22,5 +22,5 @@
 <text>报名成功\n
 感谢您的参与</text>
 </view>
-<view class="check">查看路线安排</view>
-<view class="back">返回首页</view>
+<view class="check" bindtap="toTravelSchedule">查看路线安排</view>
+<view class="back" bindtap="toHome">返回首页</view>

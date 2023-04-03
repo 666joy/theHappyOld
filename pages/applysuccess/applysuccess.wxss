@@ -3,7 +3,7 @@
   position: absolute;
   left: 0px;
   top: 44px;
-  width: 375px;
+  width: 100%;
   height: 382px;
   opacity: 1;
   border-radius: 27px;
@@ -98,7 +98,7 @@ vertical-align: top;
   
 }
 .back{
-  left: 51px;
+  left: 31px;
   top: 270px;
   width: 274px;
   height: 44px;

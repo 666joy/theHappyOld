@@ -1,10 +1,12 @@
 /* pages/user/user.wxss */
-
+.box{
+  /* position: fixed; */
+}
 .background
 {
   width: 379px;
   height: 135px;  
-  margin-top: 10px;
+  margin-top: 0px;
   z-index:-1;
 }
 .user_head{
@@ -195,6 +197,19 @@
   color: rgba(255, 141, 26, 1);
   float: left;
 }
-
+.send{
+  padding:5px 10px;
+  position:fixed;
+  left: 201rpx;
+  top: 1381rpx;
+  width:350rpx;
+  height:90rpx;
+  font-size: 45rpx;
+  text-align: center;
+  color:white;
+  background: rgba(255, 141, 26, 1);
+  border-radius:10px;
+  z-index: 2;
+}
 
 

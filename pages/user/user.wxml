@@ -1,11 +1,13 @@
 <!--pages/user/user.wxml-->
 <view class="box">
-  <cu-custom bgColor="bg-orange">
-      <view slot="content" style="color:white">用户界面</view>
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">个人中心</view>
   </cu-custom>
 </view>
-<image src="/pictures/travel/user/user_background.png" class="background"></image>
-<image src="/pictures/travel/user/User_base.png" class="user_head"></image>
+
+<image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vAXKQzQLH1Sa4FAKzPbK5l2ko7z*s9axMQGeQ5ahj9xr2BhKn0zJ1MYWIoqifW6zu8!/mnull&bo=ewGHAHsBhwADByI!&rf=photolist&t=5" class="background"></image>
+<image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5u21dUzY*aOwzWwMCjAYYenC3vMzGzdTWZvjvxqrUBkSksxnZQDlEaVxbAHmRLLZ3CO.*fOpNrNxLIZcmAb1eO0!/mnull&bo=lgCWAJYAlgADByI!&rf=photolist&t=5" class="user_head"></image>
 <view class="user_name">李雪</view>
 <view class="follow">关注</view>
 <view class="information_underground"></view>
@@ -16,20 +18,20 @@
   <text class="word">照片</text>
   <text class="word">浏览量</text>
   <text class="word">粉丝</text>
-
 </view>
+
 <view class="user_content">
-  <image src="/pictures/travel/user/user_head1.png" class="user_headshot">
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5u21dUzY*aOwzWwMCjAYYenTeozzxY*I3W41qRqUwyADY1SyX.gc5OSd4YhO0xJiXE52qWBmkbRhzMdkgEH2WaQ!/mnull&bo=VABaAFQAWgADByI!&rf=photolist&t=5" class="user_headshot">
   </image>
   <view class="share_content">由用户自行选择分享。这种情况下用户是否分享主要是取决于（内容过多折叠，仅显示60左右</view>
   <view class="user_name" style="position: relative; left: -404rpx; top: 15rpx">李雪</view>
   <image src="/pictures/loadmore.png" class="loadmore"></image>
   <view class="moretext">查看原文</view>
-  <image src="/pictures/travel/flag.png" class="flag"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5srFK2GVfntSw4K*vRnwEuVXZBHYoDdhYGbr7IDelPT15ZGXEw9cz35GyiMg5f3aMK8vVhVK5QHDZm.1sHdChtY!/mnull&bo=NgAwADYAMAADByI!&rf=photolist&t=5" class="flag"></image>
   <view class="share_route">xx非遗研学路线</view>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
-  <image src="/pictures/travel/user/share_picture1.png" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
   <image src="/pictures/love.png" class="logo1"></image>
   <view class="text1">点赞</view>
   <image src="/pictures/collect.png" class="logo1"></image>
@@ -37,3 +39,24 @@
   <image src="/pictures/share.png" class="logo1"></image>
   <view class="text1">转发</view>
 </view>
+<view class="user_content">
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5u21dUzY*aOwzWwMCjAYYenTeozzxY*I3W41qRqUwyADY1SyX.gc5OSd4YhO0xJiXE52qWBmkbRhzMdkgEH2WaQ!/mnull&bo=VABaAFQAWgADByI!&rf=photolist&t=5" class="user_headshot">
+  </image>
+  <view class="share_content">由用户自行选择分享。这种情况下用户是否分享主要是取决于（内容过多折叠，仅显示60左右</view>
+  <view class="user_name" style="position: relative; left: -404rpx; top: 15rpx">李雪</view>
+  <image src="/pictures/loadmore.png" class="loadmore"></image>
+  <view class="moretext">查看原文</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5srFK2GVfntSw4K*vRnwEuVXZBHYoDdhYGbr7IDelPT15ZGXEw9cz35GyiMg5f3aMK8vVhVK5QHDZm.1sHdChtY!/mnull&bo=NgAwADYAMAADByI!&rf=photolist&t=5" class="flag"></image>
+  <view class="share_route">xx非遗研学路线</view>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5qxGJIRNvYhI3Vs0YdEO8vCQ3UZYDfaRsn9Sa*oi1yNTvwwM.ml6*Ycm9Hn5C1nD8O56KBVVfSdq93D0QQsFQGA!/mnull&bo=oAC2AKAAtgADByI!&rf=photolist&t=5" class="share_picture"></image>
+  <image src="/pictures/love.png" class="logo1"></image>
+  <view class="text1">点赞</view>
+  <image src="/pictures/collect.png" class="logo1"></image>
+  <view class="text1">收藏</view>
+  <image src="/pictures/share.png" class="logo1"></image>
+  <view class="text1">转发</view>
+</view>
+
+<view class="send" bindtap="tonote">点击创建笔记</view>

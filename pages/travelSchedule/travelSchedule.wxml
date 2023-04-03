@@ -1,7 +1,9 @@
 <!--pages/travel/travel001.wxml-->
-<view class="container1">
-    <image src="/pictures/travel/路径2新.png" style="height:18px;width:9px; margin-right: 3px; "></image>
-    <text style="font-size: 18px; font-weight: 700;">路线介绍</text>
+<view class="box">
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="backText">返回</view>
+    <view slot="content" style="color:white">行程安排</view>
+  </cu-custom>
 </view>
 
 <view class="container2">
@@ -24,7 +26,7 @@
 <view class="container3" style="position: relative; ">
     <view id="box101" >08:30</view>
     <view id="box102">
-        <image src="/pictures/travel/沿江路.png" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHMlCKvT6Pv9OxWXdpc4uLkl6n7Zqs*pDsG5sqHq3Epwy6HEULyr8hpe*PZTYTzwT9Y!/mnull&bo=XgNiAl4DYgIDByI!&rf=photolist&t=5" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
         </image>
     </view>
     <view class="small-0"  >
@@ -34,7 +36,7 @@
     </view>
     
     <view class="pic001">
-    <image src="/pictures/travel/直线 2.png"></image>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHNf1FhGzWfNgWTw8CAZuqy6pcK4eF81u8gtth2I6cb2AK6aOFk*uo85sRMgpGVFbuQ!/mnull&bo=AQBvAAEAbwADByI!&rf=photolist&t=5"></image>
     </view> 
     
     <view class="text1-101" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
@@ -48,7 +50,7 @@
 <view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
     <view id="box201" >11:30</view>
     <view id="box202">
-        <image src="/pictures/travel/炮台.jpeg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5mrnlZs5gy4BWnxKijjZwfHFZsmwxTEt3LKspm9TePCZe*J3jw9gHpEJ55tAEvUFkNv9FJUBZd2qZOEsrKHrPKM!/mnull&bo=6AP3AegD9wEBByA!&rf=photolist&t=5" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
         </image>
     </view>
     <view class="small-1"  >
@@ -58,7 +60,7 @@
     </view>
     
     <view class="pic002">
-    <image src="/pictures/travel/直线 2.png"></image>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHNf1FhGzWfNgWTw8CAZuqy6pcK4eF81u8gtth2I6cb2AK6aOFk*uo85sRMgpGVFbuQ!/mnull&bo=AQBvAAEAbwADByI!&rf=photolist&t=5"></image>
     </view> 
     
     <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
@@ -68,7 +70,7 @@
 <view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
     <view id="box201" >13:30</view>
     <view id="box202">
-        <image src="/pictures/travel/厦门.jpg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5mrnlZs5gy4BWnxKijjZwfGnYAhJqOxGDKSPmX9exhbGizRzDLYzvwA5WAWZGdFkKmwGjbPbERUOvvyDO9kaXDQ!/mnull&bo=6ANgAegDYAEBByA!&rf=photolist&t=5" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
         </image>
     </view>
     <view class="small-1"  >
@@ -78,7 +80,7 @@
     </view>
     
     <view class="pic002">
-    <image src="/pictures/travel/直线 2.png"></image>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHNf1FhGzWfNgWTw8CAZuqy6pcK4eF81u8gtth2I6cb2AK6aOFk*uo85sRMgpGVFbuQ!/mnull&bo=AQBvAAEAbwADByI!&rf=photolist&t=5"></image>
     </view> 
     
     <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>
@@ -89,7 +91,7 @@
 <view class="container4" style="position: relative; left: NaNrpx; top: NaNrpx">
     <view id="box201" >15:30</view>
     <view id="box202">
-        <image src="/pictures/travel/寺庙.jpg" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
+        <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5hfpcQ5VcdjUFB0uqiYs.aAPbiXKu5uX3bQ89gNaoKQv51FMrxSbPRhDiW51lylJMHxFDdpjYsuNrsKGgu19YAM!/mnull&bo=6AOaAugDmgIBByA!&rf=photolist&t=5" style="position: relative; width: 76px; height: 93px; left: 0rpx; top: -90rpx;border-radius: 4px;">
         </image>
     </view>
     <view class="small-1"  >
@@ -99,7 +101,7 @@
     </view>
     
     <view class="pic002">
-    <image src="/pictures/travel/直线 2.png"></image>
+    <image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHNf1FhGzWfNgWTw8CAZuqy6pcK4eF81u8gtth2I6cb2AK6aOFk*uo85sRMgpGVFbuQ!/mnull&bo=AQBvAAEAbwADByI!&rf=photolist&t=5"></image>
     </view> 
     
     <view class="text1-201" style="position: absolute; left: 63rpx; top: 212rpx">相距小于500米 6分钟</view>

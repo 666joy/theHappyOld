@@ -62,5 +62,15 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  toTravelSchedule(){
+    wx.navigateTo({
+      url: '/pages/travelSchedule/travelSchedule',
+    })
+  },
+  toHome(){
+    wx.reLaunch({
+      url: '/pages/travel/travel',
+    })
   }
 })

@@ -1,5 +1,0 @@
-/* pages/further/further.wxss */
-image{
-  width:750rpx;
-  height:600rpx;
-}

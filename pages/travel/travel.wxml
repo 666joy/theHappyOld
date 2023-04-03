@@ -8,11 +8,11 @@
 
  <view class="content">
   <view class="type">
-     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav"><image src="/pictures/travel/简单游.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="0" bindtap="switchNav"/>简单游</view>
+     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav"><image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5pzQvQI7qk204RqvzuSl3zfiJGYXkOLVJIXV47ZSBngXiiAmdr5nSEep0hB*LB2k24F5lTBA7UtZDQADLPhRcWA!/mnull&bo=GAAYABgAGAADByI!&rf=photolist&t=5" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="0" bindtap="switchNav"/>简单游</view>
 
-     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav"><image src="/pictures/travel/研学游.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="1" bindtap="switchNav"/>研学游</view>
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav"><image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5iJPn8lM1..UUbQoRe3fqHObrFk4AK*kk8TMXotG5B*TkmVDn2ZJRD1meyUZP2Q9W6uI8rGZAcK52VYUw.nDm0M!/mnull&bo=GAAYABgAGAADByI!&rf=photolist&t=5" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="1" bindtap="switchNav"/>研学游</view>
 
-     <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav"><image src="/pictures/travel/旅行笔记.png" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="2" bindtap="switchNav"/>旅行笔记</view>
+     <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav"><image src="http://m.qpic.cn/psc?/V53g3jj51xYYHN1aGTvl0344zM1gKlX2/ruAMsa53pVQWN7FLK88i5mrnlZs5gy4BWnxKijjZwfEWVjAliBL403JS82qidNhpPTL2SLdExcBVC8amSRXIOwiutwCt3Ku4gOzeIg77.kE!/mnull&bo=GAAYABgAGAADByI!&rf=photolist&t=5" mode="aspectFit" bindload="imageLoad" style="width: 20px; height: 20px; position: relative; left: -3rpx; top: 9rpx" data-current="2" bindtap="switchNav"/>旅行笔记</view>
   </view>
   <view class="hr"></view>
   <swiper current="{{currentTab}}" style="height:750px;">

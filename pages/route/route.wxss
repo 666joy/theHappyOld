@@ -3,21 +3,27 @@
 .background{  
   width: 750rpx;
   height: 458rpx;
-  z-index:-1; 
+  z-index:-999;
+  background-size: 100% 100%;
   position: relative;
 }
 /* 路线介绍 */
+.back_box{
+  z-index: 1;
+  position:fixed;
+  top:60rpx;
+  left:0rpx;
+  width:250rpx;
+  height:54rpx;
+}
 .back {
-  position: absolute;
-  top: 92rpx;
-  left: 28rpx;
   width: 17.5rpx;
   height: 35rpx;
+  float:left;
+  top:-80rpx;
+  left:-20rpx;
 }
 .back_text{
-  position: absolute;
-  top: 84rpx;
-  left: 56rpx;
   width: 144rpx;
   height: 52rpx;
   /** 文本1 */
@@ -26,10 +32,11 @@
   letter-spacing: 0px;
   line-height: 52rpx;
   color: rgba(255, 255, 255, 1);
+  float:left;
 }
 
 /* 线路名称 */
-.background .name{
+.name{
   position: absolute;
   left: 60rpx;
   top: 154rpx;  
