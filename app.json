@@ -1,4 +1,5 @@
 {
+
   "pages":[
     "pages/travel/travel",
     "pages/class/class",
@@ -17,7 +18,8 @@
     "pages/collection/collection",
     "pages/user/user",
     "pages/product_reviews/product_reviews",
-    "pages/apply/apply"
+    "pages/apply/apply",
+    "pages/class/Speech recognition/Speech recognition"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",

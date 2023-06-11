@@ -2,6 +2,8 @@
 let that='';
 var app = getApp();
 // urlList = app.globalData.urlList;
+
+
 Page({
   data:{
     avatarUrl:"",//这里放了一张灰色头像图片
@@ -28,6 +30,11 @@ Page({
   toCantoneseEmbroidery:function(){
     wx.navigateTo({
       url: '/pages/CantoneseEmbroidery/CantoneseEmbroidery',
+    })
+  },
+  toSpeechrecognition:function(){
+    wx.navigateTo({
+      url: '/pages/class/Speech recognition/Speech recognition',
     })
   },
   onShareAppMessage: function () {}

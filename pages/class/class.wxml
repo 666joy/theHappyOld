@@ -65,7 +65,7 @@
 </view>
 
 <!-- 按住说活搜一搜 -->
-<view class="voice">
+<view class="voice" bindtap="toSpeechrecognition">
   <image src="/pictures/class/mkf.png" class="photo"></image>
   <view class="hint">按住说话搜一搜</view>  
 </view>
