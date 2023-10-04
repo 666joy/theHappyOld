@@ -19,7 +19,7 @@
     "pages/user/user",
     "pages/product_reviews/product_reviews",
     "pages/apply/apply",
-    "pages/class/Speech recognition/Speech recognition"
+    "pages/class/Speech_recognition/Speech_recognition"
   ],
   "window":{
     "navigationBarBackgroundColor": "#39b54a",

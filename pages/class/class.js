@@ -34,7 +34,7 @@ Page({
   },
   toSpeechrecognition:function(){
     wx.navigateTo({
-      url: '/pages/class/Speech recognition/Speech recognition',
+      url: '/pages/class/Speech_recognition/Speech_recognition',
     })
   },
   onShareAppMessage: function () {}
