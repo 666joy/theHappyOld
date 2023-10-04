@@ -1,0 +1,20 @@
+/* pages/class/Speech_recognition/Speech_recognition.wxss */
+page {
+  height: 100%;
+  width: 100%;
+  background: #fae9e9;
+  background-size: cover;
+}
+
+.videoWrap {
+  margin-top: 150rpx;
+  word-wrap: break-word;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  background: #FFFFFF;
+  box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.1);
+  padding: 50rpx 60rpx;
+  box-sizing: border-box;
+  min-height: 260rpx;
+}
